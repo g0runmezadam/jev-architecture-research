@@ -1,0 +1,509 @@
+{
+  "created_at": "2026-09-22T17:08:53+0300",
+  "model": "jev-1.13.0",
+  "experiments": {
+    "neighborhood": [
+      {
+        "experiment": "neighborhood",
+        "replacement": "unrelated",
+        "ok": true,
+        "ms": 1086.08,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "technical": 0.0,
+          "billing": 1.0,
+          "unrelated": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 370
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "support_request",
+        "ok": true,
+        "ms": 280.7,
+        "choice": "billing",
+        "confidence": 0.98,
+        "probabilities": {
+          "support_request": 0.01,
+          "billing": 0.99,
+          "technical": 0.0
+        },
+        "entropy_bits": 0.080793,
+        "cached": false,
+        "input_tokens": 370
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "account_issue",
+        "ok": true,
+        "ms": 286.53,
+        "choice": "billing",
+        "confidence": 0.96,
+        "probabilities": {
+          "billing": 0.97,
+          "account_issue": 0.03,
+          "technical": 0.0
+        },
+        "entropy_bits": 0.194392,
+        "cached": false,
+        "input_tokens": 370
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "subscription",
+        "ok": true,
+        "ms": 400.77,
+        "choice": "billing",
+        "confidence": 0.99,
+        "probabilities": {
+          "billing": 0.99,
+          "subscription": 0.01,
+          "technical": 0.0
+        },
+        "entropy_bits": 0.080793,
+        "cached": false,
+        "input_tokens": 374
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "refund",
+        "ok": true,
+        "ms": 326.77,
+        "choice": "refund",
+        "confidence": 0.9,
+        "probabilities": {
+          "billing": 0.07,
+          "refund": 0.93,
+          "technical": 0.0
+        },
+        "entropy_bits": 0.365924,
+        "cached": false,
+        "input_tokens": 369
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "duplicate_charge",
+        "ok": true,
+        "ms": 287.0,
+        "choice": "duplicate_charge",
+        "confidence": 0.99,
+        "probabilities": {
+          "duplicate_charge": 0.99,
+          "billing": 0.01,
+          "technical": 0.0
+        },
+        "entropy_bits": 0.080793,
+        "cached": false,
+        "input_tokens": 372
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "payment_issue",
+        "ok": true,
+        "ms": 289.51,
+        "choice": "payment_issue",
+        "confidence": 0.9,
+        "probabilities": {
+          "technical": 0.0,
+          "billing": 0.07,
+          "payment_issue": 0.93
+        },
+        "entropy_bits": 0.365924,
+        "cached": false,
+        "input_tokens": 370
+      },
+      {
+        "experiment": "neighborhood",
+        "replacement": "invoice",
+        "ok": true,
+        "ms": 284.44,
+        "choice": "billing",
+        "confidence": 0.91,
+        "probabilities": {
+          "billing": 0.94,
+          "technical": 0.0,
+          "invoice": 0.06
+        },
+        "entropy_bits": 0.327445,
+        "cached": false,
+        "input_tokens": 371
+      }
+    ],
+    "distance": [
+      {
+        "experiment": "distance_sweep",
+        "step": 1,
+        "alternative": "invoice",
+        "ok": true,
+        "ms": 336.78,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "invoice": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 341
+      },
+      {
+        "experiment": "distance_sweep",
+        "step": 2,
+        "alternative": "payment_issue",
+        "ok": true,
+        "ms": 316.94,
+        "choice": "payment_issue",
+        "confidence": 0.71,
+        "probabilities": {
+          "payment_issue": 0.86,
+          "billing": 0.14
+        },
+        "entropy_bits": 0.584239,
+        "cached": false,
+        "input_tokens": 340
+      },
+      {
+        "experiment": "distance_sweep",
+        "step": 3,
+        "alternative": "account_issue",
+        "ok": true,
+        "ms": 320.48,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "account_issue": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 339
+      },
+      {
+        "experiment": "distance_sweep",
+        "step": 4,
+        "alternative": "support_request",
+        "ok": true,
+        "ms": 301.73,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "support_request": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 339
+      },
+      {
+        "experiment": "distance_sweep",
+        "step": 5,
+        "alternative": "technical_issue",
+        "ok": true,
+        "ms": 336.14,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "technical_issue": 0.0,
+          "billing": 1.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 343
+      }
+    ],
+    "boundary": [
+      {
+        "experiment": "boundary",
+        "variant": "50_50",
+        "ok": true,
+        "ms": 311.69,
+        "choice": "billing",
+        "confidence": 0.68,
+        "probabilities": {
+          "billing": 0.84,
+          "technical": 0.16
+        },
+        "entropy_bits": 0.63431,
+        "cached": false,
+        "input_tokens": 354
+      },
+      {
+        "experiment": "boundary",
+        "variant": "60_40_billing",
+        "ok": true,
+        "ms": 272.5,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "technical": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 354
+      },
+      {
+        "experiment": "boundary",
+        "variant": "70_30_billing",
+        "ok": true,
+        "ms": 427.64,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "technical": 0.0,
+          "billing": 1.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 353
+      },
+      {
+        "experiment": "boundary",
+        "variant": "80_20_billing",
+        "ok": true,
+        "ms": 283.68,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "technical": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 352
+      },
+      {
+        "experiment": "boundary",
+        "variant": "60_40_technical",
+        "ok": true,
+        "ms": 408.84,
+        "choice": "technical",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 0.0,
+          "technical": 1.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 353
+      },
+      {
+        "experiment": "boundary",
+        "variant": "70_30_technical",
+        "ok": true,
+        "ms": 295.17,
+        "choice": "technical",
+        "confidence": 1.0,
+        "probabilities": {
+          "technical": 1.0,
+          "billing": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 351
+      },
+      {
+        "experiment": "boundary",
+        "variant": "80_20_technical",
+        "ok": true,
+        "ms": 311.24,
+        "choice": "technical",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 0.0,
+          "technical": 1.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 350
+      }
+    ],
+    "entropy": [
+      {
+        "experiment": "entropy_surface",
+        "ambiguity": "clear",
+        "ok": true,
+        "ms": 293.38,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "technical": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 347
+      },
+      {
+        "experiment": "entropy_surface",
+        "ambiguity": "mild",
+        "ok": true,
+        "ms": 278.09,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "technical": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 353
+      },
+      {
+        "experiment": "entropy_surface",
+        "ambiguity": "moderate",
+        "ok": true,
+        "ms": 291.61,
+        "choice": "billing",
+        "confidence": 0.98,
+        "probabilities": {
+          "technical": 0.01,
+          "billing": 0.99
+        },
+        "entropy_bits": 0.080793,
+        "cached": false,
+        "input_tokens": 355
+      },
+      {
+        "experiment": "entropy_surface",
+        "ambiguity": "severe",
+        "ok": true,
+        "ms": 317.17,
+        "choice": "technical",
+        "confidence": 0.47,
+        "probabilities": {
+          "billing": 0.27,
+          "technical": 0.73
+        },
+        "entropy_bits": 0.841465,
+        "cached": false,
+        "input_tokens": 353
+      }
+    ],
+    "competition": [
+      {
+        "experiment": "semantic_competition",
+        "related_count": 1,
+        "option_count": 3,
+        "ok": true,
+        "ms": 338.81,
+        "choice": "billing",
+        "confidence": 1.0,
+        "probabilities": {
+          "billing": 1.0,
+          "sales": 0.0,
+          "invoice": 0.0
+        },
+        "entropy_bits": -0.0,
+        "cached": false,
+        "input_tokens": 356
+      },
+      {
+        "experiment": "semantic_competition",
+        "related_count": 2,
+        "option_count": 4,
+        "ok": true,
+        "ms": 321.22,
+        "choice": "payment_issue",
+        "confidence": 0.91,
+        "probabilities": {
+          "sales": 0.0,
+          "billing": 0.07,
+          "invoice": 0.0,
+          "payment_issue": 0.93
+        },
+        "entropy_bits": 0.365924,
+        "cached": false,
+        "input_tokens": 372
+      },
+      {
+        "experiment": "semantic_competition",
+        "related_count": 3,
+        "option_count": 5,
+        "ok": true,
+        "ms": 305.66,
+        "choice": "duplicate_charge",
+        "confidence": 0.94,
+        "probabilities": {
+          "invoice": 0.0,
+          "sales": 0.0,
+          "billing": 0.01,
+          "duplicate_charge": 0.95,
+          "payment_issue": 0.04
+        },
+        "entropy_bits": 0.322493,
+        "cached": false,
+        "input_tokens": 389
+      },
+      {
+        "experiment": "semantic_competition",
+        "related_count": 4,
+        "option_count": 6,
+        "ok": true,
+        "ms": 304.37,
+        "choice": "duplicate_charge",
+        "confidence": 0.91,
+        "probabilities": {
+          "duplicate_charge": 0.93,
+          "billing": 0.01,
+          "invoice": 0.0,
+          "refund": 0.04,
+          "payment_issue": 0.02,
+          "sales": 0.0
+        },
+        "entropy_bits": 0.462438,
+        "cached": false,
+        "input_tokens": 405
+      },
+      {
+        "experiment": "semantic_competition",
+        "related_count": 6,
+        "option_count": 8,
+        "ok": true,
+        "ms": 361.91,
+        "choice": "duplicate_charge",
+        "confidence": 0.94,
+        "probabilities": {
+          "payment_issue": 0.02,
+          "subscription": 0.0,
+          "sales": 0.0,
+          "duplicate_charge": 0.95,
+          "account_issue": 0.0,
+          "invoice": 0.0,
+          "refund": 0.03,
+          "billing": 0.0
+        },
+        "entropy_bits": 0.334944,
+        "cached": false,
+        "input_tokens": 439
+      },
+      {
+        "experiment": "semantic_competition",
+        "related_count": 8,
+        "option_count": 10,
+        "ok": true,
+        "ms": 337.39,
+        "choice": "duplicate_charge",
+        "confidence": 0.96,
+        "probabilities": {
+          "subscription": 0.0,
+          "technical_issue": 0.0,
+          "payment_issue": 0.01,
+          "invoice": 0.0,
+          "billing": 0.0,
+          "refund": 0.02,
+          "account_issue": 0.0,
+          "support_request": 0.0,
+          "duplicate_charge": 0.97,
+          "sales": 0.0
+        },
+        "entropy_bits": 0.221941,
+        "cached": false,
+        "input_tokens": 471
+      }
+    ]
+  }
+}

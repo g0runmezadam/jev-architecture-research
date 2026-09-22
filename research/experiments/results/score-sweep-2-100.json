@@ -1,0 +1,3084 @@
+{
+  "created_at": "2026-09-21T23:41:26+0300",
+  "summary": {},
+  "detail": {
+    "laya-multilingual": {
+      "sweep": [
+        {
+          "levels": 2,
+          "score": 0.9086,
+          "expected_from_probabilities": 0.9086,
+          "difference": 0.0,
+          "variance_from_probabilities": 0.08304603999999999,
+          "confidence": 0.5589,
+          "probabilities": {
+            "0": 0.0914,
+            "1": 0.9086
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: complete outage and data loss",
+              "examples": [
+                "example for level 1"
+              ]
+            }
+          },
+          "ms": 448.8368000020273,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "levels": 3,
+          "score": 1.6888,
+          "expected_from_probabilities": 1.6888999999999998,
+          "difference": -9.999999999976694e-05,
+          "variance_from_probabilities": 0.42620202832099996,
+          "confidence": 0.4084,
+          "probabilities": {
+            "0": 0.1059,
+            "1": 0.0995,
+            "2": 0.7947
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: complete outage and data loss",
+              "examples": [
+                "example for level 2"
+              ]
+            }
+          },
+          "ms": 34.44039999158122,
+          "cached": false,
+          "input_tokens": 123
+        },
+        {
+          "levels": 4,
+          "score": 2.3588,
+          "expected_from_probabilities": 2.3588,
+          "difference": 0.0,
+          "variance_from_probabilities": 1.15506256,
+          "confidence": 0.3242,
+          "probabilities": {
+            "0": 0.1216,
+            "1": 0.0977,
+            "2": 0.081,
+            "3": 0.6997
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: complete outage and data loss",
+              "examples": [
+                "example for level 3"
+              ]
+            }
+          },
+          "ms": 43.68930000055116,
+          "cached": false,
+          "input_tokens": 153
+        },
+        {
+          "levels": 5,
+          "score": 2.8363,
+          "expected_from_probabilities": 2.8364000000000003,
+          "difference": -0.00010000000000021103,
+          "variance_from_probabilities": 2.27923504,
+          "confidence": 0.1964,
+          "probabilities": {
+            "0": 0.1328,
+            "1": 0.1136,
+            "2": 0.0972,
+            "3": 0.0972,
+            "4": 0.5592
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: complete outage and data loss",
+              "examples": [
+                "example for level 4"
+              ]
+            }
+          },
+          "ms": 40.62060000433121,
+          "cached": false,
+          "input_tokens": 183
+        },
+        {
+          "levels": 6,
+          "score": 2.6524,
+          "expected_from_probabilities": 2.6527000000000003,
+          "difference": -0.000300000000000189,
+          "variance_from_probabilities": 3.399386391729,
+          "confidence": 0.0151,
+          "probabilities": {
+            "0": 0.1832,
+            "1": 0.1472,
+            "2": 0.1427,
+            "3": 0.1383,
+            "4": 0.1383,
+            "5": 0.2504
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: complete outage and data loss",
+              "examples": [
+                "example for level 5"
+              ]
+            }
+          },
+          "ms": 32.58030000142753,
+          "cached": false,
+          "input_tokens": 213
+        },
+        {
+          "levels": 7,
+          "score": 3.913,
+          "expected_from_probabilities": 3.9128,
+          "difference": 0.00019999999999997797,
+          "variance_from_probabilities": 5.08519616,
+          "confidence": 0.1311,
+          "probabilities": {
+            "0": 0.1229,
+            "1": 0.0957,
+            "2": 0.0871,
+            "3": 0.0899,
+            "4": 0.0844,
+            "5": 0.0844,
+            "6": 0.4356
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: complete outage and data loss",
+              "examples": [
+                "example for level 6"
+              ]
+            }
+          },
+          "ms": 40.61889999138657,
+          "cached": false,
+          "input_tokens": 243
+        },
+        {
+          "levels": 8,
+          "score": 4.2573,
+          "expected_from_probabilities": 4.2581999999999995,
+          "difference": -0.0008999999999996788,
+          "variance_from_probabilities": 6.600772440172,
+          "confidence": 0.0748,
+          "probabilities": {
+            "0": 0.1171,
+            "1": 0.0941,
+            "2": 0.0912,
+            "3": 0.0912,
+            "4": 0.0912,
+            "5": 0.0884,
+            "6": 0.0884,
+            "7": 0.3387
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: complete outage and data loss",
+              "examples": [
+                "example for level 7"
+              ]
+            }
+          },
+          "ms": 37.91849999106489,
+          "cached": false,
+          "input_tokens": 273
+        },
+        {
+          "levels": 9,
+          "score": 4.1695,
+          "expected_from_probabilities": 4.1697,
+          "difference": -0.00019999999999953388,
+          "variance_from_probabilities": 9.494040549809,
+          "confidence": 0.0685,
+          "probabilities": {
+            "0": 0.152,
+            "1": 0.1544,
+            "2": 0.088,
+            "3": 0.0664,
+            "4": 0.0729,
+            "5": 0.0624,
+            "6": 0.0624,
+            "7": 0.0707,
+            "8": 0.2709
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: complete outage and data loss",
+              "examples": [
+                "example for level 8"
+              ]
+            }
+          },
+          "ms": 37.42259999853559,
+          "cached": false,
+          "input_tokens": 269
+        },
+        {
+          "levels": 10,
+          "score": 2.4292,
+          "expected_from_probabilities": 2.4306,
+          "difference": -0.00140000000000029,
+          "variance_from_probabilities": 7.174565203272,
+          "confidence": 0.3414,
+          "probabilities": {
+            "0": 0.083,
+            "1": 0.604,
+            "2": 0.0352,
+            "3": 0.0363,
+            "4": 0.0352,
+            "5": 0.0352,
+            "6": 0.0352,
+            "7": 0.0352,
+            "8": 0.0352,
+            "9": 0.0657
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: complete outage and data loss",
+              "examples": [
+                "example for level 9"
+              ]
+            }
+          },
+          "ms": 41.89930000575259,
+          "cached": false,
+          "input_tokens": 276
+        },
+        {
+          "levels": 15,
+          "score": 1.7457,
+          "expected_from_probabilities": 1.7487,
+          "difference": -0.0029999999999998916,
+          "variance_from_probabilities": 6.346571490676001,
+          "confidence": 0.7342,
+          "probabilities": {
+            "0": 0.0162,
+            "1": 0.8713,
+            "2": 0.0135,
+            "3": 0.0082,
+            "4": 0.0082,
+            "5": 0.0082,
+            "6": 0.0082,
+            "7": 0.0082,
+            "8": 0.0082,
+            "9": 0.0082,
+            "10": 0.0082,
+            "11": 0.0082,
+            "12": 0.0082,
+            "13": 0.0082,
+            "14": 0.0092
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: complete outage and data loss",
+              "examples": [
+                "example for level 14"
+              ]
+            }
+          },
+          "ms": 34.725999998045154,
+          "cached": false,
+          "input_tokens": 276
+        },
+        {
+          "levels": 20,
+          "score": 7.1999,
+          "expected_from_probabilities": 7.2008,
+          "difference": -0.0008999999999996788,
+          "variance_from_probabilities": 29.416079359999998,
+          "confidence": 0.0401,
+          "probabilities": {
+            "0": 0.0571,
+            "1": 0.1067,
+            "2": 0.1101,
+            "3": 0.052,
+            "4": 0.0599,
+            "5": 0.058,
+            "6": 0.07,
+            "7": 0.0537,
+            "8": 0.0496,
+            "9": 0.0637,
+            "10": 0.0745,
+            "11": 0.027,
+            "12": 0.027,
+            "13": 0.027,
+            "14": 0.027,
+            "15": 0.027,
+            "16": 0.027,
+            "17": 0.027,
+            "18": 0.027,
+            "19": 0.0287
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: intermediate operational impact 14",
+              "examples": [
+                "example for level 14"
+              ]
+            },
+            "15": {
+              "what": "Severity level 15: intermediate operational impact 15",
+              "examples": [
+                "example for level 15"
+              ]
+            },
+            "16": {
+              "what": "Severity level 16: intermediate operational impact 16",
+              "examples": [
+                "example for level 16"
+              ]
+            },
+            "17": {
+              "what": "Severity level 17: intermediate operational impact 17",
+              "examples": [
+                "example for level 17"
+              ]
+            },
+            "18": {
+              "what": "Severity level 18: intermediate operational impact 18",
+              "examples": [
+                "example for level 18"
+              ]
+            },
+            "19": {
+              "what": "Severity level 19: complete outage and data loss",
+              "examples": [
+                "example for level 19"
+              ]
+            }
+          },
+          "ms": 44.62200000125449,
+          "cached": false,
+          "input_tokens": 276
+        },
+        {
+          "levels": 30,
+          "score": 12.1248,
+          "expected_from_probabilities": 12.1245,
+          "difference": 0.0003000000000010772,
+          "variance_from_probabilities": 95.16819975,
+          "confidence": 0.039,
+          "probabilities": {
+            "0": 0.116,
+            "1": 0.089,
+            "2": 0.0583,
+            "3": 0.0348,
+            "4": 0.0263,
+            "5": 0.0263,
+            "6": 0.0263,
+            "7": 0.0255,
+            "8": 0.0271,
+            "9": 0.0298,
+            "10": 0.028,
+            "11": 0.0289,
+            "12": 0.0271,
+            "13": 0.0255,
+            "14": 0.0247,
+            "15": 0.0255,
+            "16": 0.0255,
+            "17": 0.0247,
+            "18": 0.0247,
+            "19": 0.0247,
+            "20": 0.0263,
+            "21": 0.0247,
+            "22": 0.0247,
+            "23": 0.0247,
+            "24": 0.0247,
+            "25": 0.0247,
+            "26": 0.0247,
+            "27": 0.0247,
+            "28": 0.0247,
+            "29": 0.0574
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: intermediate operational impact 14",
+              "examples": [
+                "example for level 14"
+              ]
+            },
+            "15": {
+              "what": "Severity level 15: intermediate operational impact 15",
+              "examples": [
+                "example for level 15"
+              ]
+            },
+            "16": {
+              "what": "Severity level 16: intermediate operational impact 16",
+              "examples": [
+                "example for level 16"
+              ]
+            },
+            "17": {
+              "what": "Severity level 17: intermediate operational impact 17",
+              "examples": [
+                "example for level 17"
+              ]
+            },
+            "18": {
+              "what": "Severity level 18: intermediate operational impact 18",
+              "examples": [
+                "example for level 18"
+              ]
+            },
+            "19": {
+              "what": "Severity level 19: intermediate operational impact 19",
+              "examples": [
+                "example for level 19"
+              ]
+            },
+            "20": {
+              "what": "Severity level 20: intermediate operational impact 20",
+              "examples": [
+                "example for level 20"
+              ]
+            },
+            "21": {
+              "what": "Severity level 21: intermediate operational impact 21",
+              "examples": [
+                "example for level 21"
+              ]
+            },
+            "22": {
+              "what": "Severity level 22: intermediate operational impact 22",
+              "examples": [
+                "example for level 22"
+              ]
+            },
+            "23": {
+              "what": "Severity level 23: intermediate operational impact 23",
+              "examples": [
+                "example for level 23"
+              ]
+            },
+            "24": {
+              "what": "Severity level 24: intermediate operational impact 24",
+              "examples": [
+                "example for level 24"
+              ]
+            },
+            "25": {
+              "what": "Severity level 25: intermediate operational impact 25",
+              "examples": [
+                "example for level 25"
+              ]
+            },
+            "26": {
+              "what": "Severity level 26: intermediate operational impact 26",
+              "examples": [
+                "example for level 26"
+              ]
+            },
+            "27": {
+              "what": "Severity level 27: intermediate operational impact 27",
+              "examples": [
+                "example for level 27"
+              ]
+            },
+            "28": {
+              "what": "Severity level 28: intermediate operational impact 28",
+              "examples": [
+                "example for level 28"
+              ]
+            },
+            "29": {
+              "what": "Severity level 29: complete outage and data loss",
+              "examples": [
+                "example for level 29"
+              ]
+            }
+          },
+          "ms": 36.52719999081455,
+          "cached": false,
+          "input_tokens": 276
+        },
+        {
+          "levels": 50,
+          "score": 19.4176,
+          "expected_from_probabilities": 19.4112,
+          "difference": 0.006399999999999295,
+          "variance_from_probabilities": 224.16251456,
+          "confidence": 0.0822,
+          "probabilities": {
+            "0": 0.0213,
+            "1": 0.0176,
+            "2": 0.0171,
+            "3": 0.0156,
+            "4": 0.0166,
+            "5": 0.1031,
+            "6": 0.1648,
+            "7": 0.0182,
+            "8": 0.0213,
+            "9": 0.0161,
+            "10": 0.0151,
+            "11": 0.0156,
+            "12": 0.0151,
+            "13": 0.0151,
+            "14": 0.0151,
+            "15": 0.0151,
+            "16": 0.0151,
+            "17": 0.0151,
+            "18": 0.0151,
+            "19": 0.0151,
+            "20": 0.0146,
+            "21": 0.0146,
+            "22": 0.0142,
+            "23": 0.0146,
+            "24": 0.0146,
+            "25": 0.0146,
+            "26": 0.0142,
+            "27": 0.0146,
+            "28": 0.0146,
+            "29": 0.0146,
+            "30": 0.0142,
+            "31": 0.0142,
+            "32": 0.0146,
+            "33": 0.0142,
+            "34": 0.0146,
+            "35": 0.0142,
+            "36": 0.0146,
+            "37": 0.0142,
+            "38": 0.0146,
+            "39": 0.0146,
+            "40": 0.0146,
+            "41": 0.0146,
+            "42": 0.0146,
+            "43": 0.0146,
+            "44": 0.0146,
+            "45": 0.0146,
+            "46": 0.0146,
+            "47": 0.0146,
+            "48": 0.0142,
+            "49": 0.0166
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: intermediate operational impact 14",
+              "examples": [
+                "example for level 14"
+              ]
+            },
+            "15": {
+              "what": "Severity level 15: intermediate operational impact 15",
+              "examples": [
+                "example for level 15"
+              ]
+            },
+            "16": {
+              "what": "Severity level 16: intermediate operational impact 16",
+              "examples": [
+                "example for level 16"
+              ]
+            },
+            "17": {
+              "what": "Severity level 17: intermediate operational impact 17",
+              "examples": [
+                "example for level 17"
+              ]
+            },
+            "18": {
+              "what": "Severity level 18: intermediate operational impact 18",
+              "examples": [
+                "example for level 18"
+              ]
+            },
+            "19": {
+              "what": "Severity level 19: intermediate operational impact 19",
+              "examples": [
+                "example for level 19"
+              ]
+            },
+            "20": {
+              "what": "Severity level 20: intermediate operational impact 20",
+              "examples": [
+                "example for level 20"
+              ]
+            },
+            "21": {
+              "what": "Severity level 21: intermediate operational impact 21",
+              "examples": [
+                "example for level 21"
+              ]
+            },
+            "22": {
+              "what": "Severity level 22: intermediate operational impact 22",
+              "examples": [
+                "example for level 22"
+              ]
+            },
+            "23": {
+              "what": "Severity level 23: intermediate operational impact 23",
+              "examples": [
+                "example for level 23"
+              ]
+            },
+            "24": {
+              "what": "Severity level 24: intermediate operational impact 24",
+              "examples": [
+                "example for level 24"
+              ]
+            },
+            "25": {
+              "what": "Severity level 25: intermediate operational impact 25",
+              "examples": [
+                "example for level 25"
+              ]
+            },
+            "26": {
+              "what": "Severity level 26: intermediate operational impact 26",
+              "examples": [
+                "example for level 26"
+              ]
+            },
+            "27": {
+              "what": "Severity level 27: intermediate operational impact 27",
+              "examples": [
+                "example for level 27"
+              ]
+            },
+            "28": {
+              "what": "Severity level 28: intermediate operational impact 28",
+              "examples": [
+                "example for level 28"
+              ]
+            },
+            "29": {
+              "what": "Severity level 29: intermediate operational impact 29",
+              "examples": [
+                "example for level 29"
+              ]
+            },
+            "30": {
+              "what": "Severity level 30: intermediate operational impact 30",
+              "examples": [
+                "example for level 30"
+              ]
+            },
+            "31": {
+              "what": "Severity level 31: intermediate operational impact 31",
+              "examples": [
+                "example for level 31"
+              ]
+            },
+            "32": {
+              "what": "Severity level 32: intermediate operational impact 32",
+              "examples": [
+                "example for level 32"
+              ]
+            },
+            "33": {
+              "what": "Severity level 33: intermediate operational impact 33",
+              "examples": [
+                "example for level 33"
+              ]
+            },
+            "34": {
+              "what": "Severity level 34: intermediate operational impact 34",
+              "examples": [
+                "example for level 34"
+              ]
+            },
+            "35": {
+              "what": "Severity level 35: intermediate operational impact 35",
+              "examples": [
+                "example for level 35"
+              ]
+            },
+            "36": {
+              "what": "Severity level 36: intermediate operational impact 36",
+              "examples": [
+                "example for level 36"
+              ]
+            },
+            "37": {
+              "what": "Severity level 37: intermediate operational impact 37",
+              "examples": [
+                "example for level 37"
+              ]
+            },
+            "38": {
+              "what": "Severity level 38: intermediate operational impact 38",
+              "examples": [
+                "example for level 38"
+              ]
+            },
+            "39": {
+              "what": "Severity level 39: intermediate operational impact 39",
+              "examples": [
+                "example for level 39"
+              ]
+            },
+            "40": {
+              "what": "Severity level 40: intermediate operational impact 40",
+              "examples": [
+                "example for level 40"
+              ]
+            },
+            "41": {
+              "what": "Severity level 41: intermediate operational impact 41",
+              "examples": [
+                "example for level 41"
+              ]
+            },
+            "42": {
+              "what": "Severity level 42: intermediate operational impact 42",
+              "examples": [
+                "example for level 42"
+              ]
+            },
+            "43": {
+              "what": "Severity level 43: intermediate operational impact 43",
+              "examples": [
+                "example for level 43"
+              ]
+            },
+            "44": {
+              "what": "Severity level 44: intermediate operational impact 44",
+              "examples": [
+                "example for level 44"
+              ]
+            },
+            "45": {
+              "what": "Severity level 45: intermediate operational impact 45",
+              "examples": [
+                "example for level 45"
+              ]
+            },
+            "46": {
+              "what": "Severity level 46: intermediate operational impact 46",
+              "examples": [
+                "example for level 46"
+              ]
+            },
+            "47": {
+              "what": "Severity level 47: intermediate operational impact 47",
+              "examples": [
+                "example for level 47"
+              ]
+            },
+            "48": {
+              "what": "Severity level 48: intermediate operational impact 48",
+              "examples": [
+                "example for level 48"
+              ]
+            },
+            "49": {
+              "what": "Severity level 49: complete outage and data loss",
+              "examples": [
+                "example for level 49"
+              ]
+            }
+          },
+          "ms": 36.35270000086166,
+          "cached": false,
+          "input_tokens": 236
+        },
+        {
+          "levels": 75,
+          "score": 35.8542,
+          "expected_from_probabilities": 35.8288,
+          "difference": 0.025399999999997647,
+          "variance_from_probabilities": 528.72283910528,
+          "confidence": 0.0138,
+          "probabilities": {
+            "0": 0.0271,
+            "1": 0.0145,
+            "2": 0.0128,
+            "3": 0.012,
+            "4": 0.0117,
+            "5": 0.0117,
+            "6": 0.0128,
+            "7": 0.0601,
+            "8": 0.0141,
+            "9": 0.0124,
+            "10": 0.012,
+            "11": 0.012,
+            "12": 0.0124,
+            "13": 0.012,
+            "14": 0.012,
+            "15": 0.012,
+            "16": 0.0124,
+            "17": 0.0124,
+            "18": 0.0124,
+            "19": 0.012,
+            "20": 0.012,
+            "21": 0.012,
+            "22": 0.012,
+            "23": 0.012,
+            "24": 0.0117,
+            "25": 0.012,
+            "26": 0.012,
+            "27": 0.012,
+            "28": 0.0117,
+            "29": 0.012,
+            "30": 0.012,
+            "31": 0.0117,
+            "32": 0.012,
+            "33": 0.0117,
+            "34": 0.0117,
+            "35": 0.0117,
+            "36": 0.012,
+            "37": 0.0117,
+            "38": 0.0117,
+            "39": 0.012,
+            "40": 0.012,
+            "41": 0.012,
+            "42": 0.012,
+            "43": 0.0124,
+            "44": 0.012,
+            "45": 0.012,
+            "46": 0.012,
+            "47": 0.012,
+            "48": 0.012,
+            "49": 0.012,
+            "50": 0.012,
+            "51": 0.012,
+            "52": 0.012,
+            "53": 0.012,
+            "54": 0.012,
+            "55": 0.012,
+            "56": 0.0124,
+            "57": 0.0124,
+            "58": 0.012,
+            "59": 0.012,
+            "60": 0.012,
+            "61": 0.012,
+            "62": 0.012,
+            "63": 0.012,
+            "64": 0.012,
+            "65": 0.012,
+            "66": 0.012,
+            "67": 0.012,
+            "68": 0.012,
+            "69": 0.0117,
+            "70": 0.0145,
+            "71": 0.0243,
+            "72": 0.0164,
+            "73": 0.0145,
+            "74": 0.0205
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: intermediate operational impact 14",
+              "examples": [
+                "example for level 14"
+              ]
+            },
+            "15": {
+              "what": "Severity level 15: intermediate operational impact 15",
+              "examples": [
+                "example for level 15"
+              ]
+            },
+            "16": {
+              "what": "Severity level 16: intermediate operational impact 16",
+              "examples": [
+                "example for level 16"
+              ]
+            },
+            "17": {
+              "what": "Severity level 17: intermediate operational impact 17",
+              "examples": [
+                "example for level 17"
+              ]
+            },
+            "18": {
+              "what": "Severity level 18: intermediate operational impact 18",
+              "examples": [
+                "example for level 18"
+              ]
+            },
+            "19": {
+              "what": "Severity level 19: intermediate operational impact 19",
+              "examples": [
+                "example for level 19"
+              ]
+            },
+            "20": {
+              "what": "Severity level 20: intermediate operational impact 20",
+              "examples": [
+                "example for level 20"
+              ]
+            },
+            "21": {
+              "what": "Severity level 21: intermediate operational impact 21",
+              "examples": [
+                "example for level 21"
+              ]
+            },
+            "22": {
+              "what": "Severity level 22: intermediate operational impact 22",
+              "examples": [
+                "example for level 22"
+              ]
+            },
+            "23": {
+              "what": "Severity level 23: intermediate operational impact 23",
+              "examples": [
+                "example for level 23"
+              ]
+            },
+            "24": {
+              "what": "Severity level 24: intermediate operational impact 24",
+              "examples": [
+                "example for level 24"
+              ]
+            },
+            "25": {
+              "what": "Severity level 25: intermediate operational impact 25",
+              "examples": [
+                "example for level 25"
+              ]
+            },
+            "26": {
+              "what": "Severity level 26: intermediate operational impact 26",
+              "examples": [
+                "example for level 26"
+              ]
+            },
+            "27": {
+              "what": "Severity level 27: intermediate operational impact 27",
+              "examples": [
+                "example for level 27"
+              ]
+            },
+            "28": {
+              "what": "Severity level 28: intermediate operational impact 28",
+              "examples": [
+                "example for level 28"
+              ]
+            },
+            "29": {
+              "what": "Severity level 29: intermediate operational impact 29",
+              "examples": [
+                "example for level 29"
+              ]
+            },
+            "30": {
+              "what": "Severity level 30: intermediate operational impact 30",
+              "examples": [
+                "example for level 30"
+              ]
+            },
+            "31": {
+              "what": "Severity level 31: intermediate operational impact 31",
+              "examples": [
+                "example for level 31"
+              ]
+            },
+            "32": {
+              "what": "Severity level 32: intermediate operational impact 32",
+              "examples": [
+                "example for level 32"
+              ]
+            },
+            "33": {
+              "what": "Severity level 33: intermediate operational impact 33",
+              "examples": [
+                "example for level 33"
+              ]
+            },
+            "34": {
+              "what": "Severity level 34: intermediate operational impact 34",
+              "examples": [
+                "example for level 34"
+              ]
+            },
+            "35": {
+              "what": "Severity level 35: intermediate operational impact 35",
+              "examples": [
+                "example for level 35"
+              ]
+            },
+            "36": {
+              "what": "Severity level 36: intermediate operational impact 36",
+              "examples": [
+                "example for level 36"
+              ]
+            },
+            "37": {
+              "what": "Severity level 37: intermediate operational impact 37",
+              "examples": [
+                "example for level 37"
+              ]
+            },
+            "38": {
+              "what": "Severity level 38: intermediate operational impact 38",
+              "examples": [
+                "example for level 38"
+              ]
+            },
+            "39": {
+              "what": "Severity level 39: intermediate operational impact 39",
+              "examples": [
+                "example for level 39"
+              ]
+            },
+            "40": {
+              "what": "Severity level 40: intermediate operational impact 40",
+              "examples": [
+                "example for level 40"
+              ]
+            },
+            "41": {
+              "what": "Severity level 41: intermediate operational impact 41",
+              "examples": [
+                "example for level 41"
+              ]
+            },
+            "42": {
+              "what": "Severity level 42: intermediate operational impact 42",
+              "examples": [
+                "example for level 42"
+              ]
+            },
+            "43": {
+              "what": "Severity level 43: intermediate operational impact 43",
+              "examples": [
+                "example for level 43"
+              ]
+            },
+            "44": {
+              "what": "Severity level 44: intermediate operational impact 44",
+              "examples": [
+                "example for level 44"
+              ]
+            },
+            "45": {
+              "what": "Severity level 45: intermediate operational impact 45",
+              "examples": [
+                "example for level 45"
+              ]
+            },
+            "46": {
+              "what": "Severity level 46: intermediate operational impact 46",
+              "examples": [
+                "example for level 46"
+              ]
+            },
+            "47": {
+              "what": "Severity level 47: intermediate operational impact 47",
+              "examples": [
+                "example for level 47"
+              ]
+            },
+            "48": {
+              "what": "Severity level 48: intermediate operational impact 48",
+              "examples": [
+                "example for level 48"
+              ]
+            },
+            "49": {
+              "what": "Severity level 49: intermediate operational impact 49",
+              "examples": [
+                "example for level 49"
+              ]
+            },
+            "50": {
+              "what": "Severity level 50: intermediate operational impact 50",
+              "examples": [
+                "example for level 50"
+              ]
+            },
+            "51": {
+              "what": "Severity level 51: intermediate operational impact 51",
+              "examples": [
+                "example for level 51"
+              ]
+            },
+            "52": {
+              "what": "Severity level 52: intermediate operational impact 52",
+              "examples": [
+                "example for level 52"
+              ]
+            },
+            "53": {
+              "what": "Severity level 53: intermediate operational impact 53",
+              "examples": [
+                "example for level 53"
+              ]
+            },
+            "54": {
+              "what": "Severity level 54: intermediate operational impact 54",
+              "examples": [
+                "example for level 54"
+              ]
+            },
+            "55": {
+              "what": "Severity level 55: intermediate operational impact 55",
+              "examples": [
+                "example for level 55"
+              ]
+            },
+            "56": {
+              "what": "Severity level 56: intermediate operational impact 56",
+              "examples": [
+                "example for level 56"
+              ]
+            },
+            "57": {
+              "what": "Severity level 57: intermediate operational impact 57",
+              "examples": [
+                "example for level 57"
+              ]
+            },
+            "58": {
+              "what": "Severity level 58: intermediate operational impact 58",
+              "examples": [
+                "example for level 58"
+              ]
+            },
+            "59": {
+              "what": "Severity level 59: intermediate operational impact 59",
+              "examples": [
+                "example for level 59"
+              ]
+            },
+            "60": {
+              "what": "Severity level 60: intermediate operational impact 60",
+              "examples": [
+                "example for level 60"
+              ]
+            },
+            "61": {
+              "what": "Severity level 61: intermediate operational impact 61",
+              "examples": [
+                "example for level 61"
+              ]
+            },
+            "62": {
+              "what": "Severity level 62: intermediate operational impact 62",
+              "examples": [
+                "example for level 62"
+              ]
+            },
+            "63": {
+              "what": "Severity level 63: intermediate operational impact 63",
+              "examples": [
+                "example for level 63"
+              ]
+            },
+            "64": {
+              "what": "Severity level 64: intermediate operational impact 64",
+              "examples": [
+                "example for level 64"
+              ]
+            },
+            "65": {
+              "what": "Severity level 65: intermediate operational impact 65",
+              "examples": [
+                "example for level 65"
+              ]
+            },
+            "66": {
+              "what": "Severity level 66: intermediate operational impact 66",
+              "examples": [
+                "example for level 66"
+              ]
+            },
+            "67": {
+              "what": "Severity level 67: intermediate operational impact 67",
+              "examples": [
+                "example for level 67"
+              ]
+            },
+            "68": {
+              "what": "Severity level 68: intermediate operational impact 68",
+              "examples": [
+                "example for level 68"
+              ]
+            },
+            "69": {
+              "what": "Severity level 69: intermediate operational impact 69",
+              "examples": [
+                "example for level 69"
+              ]
+            },
+            "70": {
+              "what": "Severity level 70: intermediate operational impact 70",
+              "examples": [
+                "example for level 70"
+              ]
+            },
+            "71": {
+              "what": "Severity level 71: intermediate operational impact 71",
+              "examples": [
+                "example for level 71"
+              ]
+            },
+            "72": {
+              "what": "Severity level 72: intermediate operational impact 72",
+              "examples": [
+                "example for level 72"
+              ]
+            },
+            "73": {
+              "what": "Severity level 73: intermediate operational impact 73",
+              "examples": [
+                "example for level 73"
+              ]
+            },
+            "74": {
+              "what": "Severity level 74: complete outage and data loss",
+              "examples": [
+                "example for level 74"
+              ]
+            }
+          },
+          "ms": 43.01110000233166,
+          "cached": false,
+          "input_tokens": 333
+        },
+        {
+          "levels": 100,
+          "score": 43.2509,
+          "expected_from_probabilities": 43.1367,
+          "difference": 0.11420000000000385,
+          "variance_from_probabilities": 994.184418313598,
+          "confidence": 0.0408,
+          "probabilities": {
+            "0": 0.1155,
+            "1": 0.0138,
+            "2": 0.0098,
+            "3": 0.0089,
+            "4": 0.0086,
+            "5": 0.0086,
+            "6": 0.0089,
+            "7": 0.0098,
+            "8": 0.0134,
+            "9": 0.0147,
+            "10": 0.0089,
+            "11": 0.0098,
+            "12": 0.0104,
+            "13": 0.0098,
+            "14": 0.0098,
+            "15": 0.0095,
+            "16": 0.0098,
+            "17": 0.0095,
+            "18": 0.0092,
+            "19": 0.0086,
+            "20": 0.0086,
+            "21": 0.0086,
+            "22": 0.0086,
+            "23": 0.0086,
+            "24": 0.0086,
+            "25": 0.0086,
+            "26": 0.0086,
+            "27": 0.0086,
+            "28": 0.0086,
+            "29": 0.0086,
+            "30": 0.0084,
+            "31": 0.0084,
+            "32": 0.0086,
+            "33": 0.0086,
+            "34": 0.0086,
+            "35": 0.0084,
+            "36": 0.0084,
+            "37": 0.0086,
+            "38": 0.0084,
+            "39": 0.0084,
+            "40": 0.0086,
+            "41": 0.0086,
+            "42": 0.0086,
+            "43": 0.0086,
+            "44": 0.0086,
+            "45": 0.0086,
+            "46": 0.0086,
+            "47": 0.0086,
+            "48": 0.0086,
+            "49": 0.0086,
+            "50": 0.0084,
+            "51": 0.0086,
+            "52": 0.0086,
+            "53": 0.0086,
+            "54": 0.0086,
+            "55": 0.0086,
+            "56": 0.0086,
+            "57": 0.0086,
+            "58": 0.0084,
+            "59": 0.0084,
+            "60": 0.0086,
+            "61": 0.0086,
+            "62": 0.0086,
+            "63": 0.0086,
+            "64": 0.0086,
+            "65": 0.0086,
+            "66": 0.0086,
+            "67": 0.0086,
+            "68": 0.0086,
+            "69": 0.0086,
+            "70": 0.0086,
+            "71": 0.0101,
+            "72": 0.0092,
+            "73": 0.0089,
+            "74": 0.0086,
+            "75": 0.0086,
+            "76": 0.0086,
+            "77": 0.0086,
+            "78": 0.0086,
+            "79": 0.0086,
+            "80": 0.0086,
+            "81": 0.0086,
+            "82": 0.0086,
+            "83": 0.0086,
+            "84": 0.0086,
+            "85": 0.0086,
+            "86": 0.0086,
+            "87": 0.0086,
+            "88": 0.0086,
+            "89": 0.0086,
+            "90": 0.0086,
+            "91": 0.0084,
+            "92": 0.0086,
+            "93": 0.0086,
+            "94": 0.0086,
+            "95": 0.0086,
+            "96": 0.0086,
+            "97": 0.0086,
+            "98": 0.0086,
+            "99": 0.0111
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: intermediate operational impact 9",
+              "examples": [
+                "example for level 9"
+              ]
+            },
+            "10": {
+              "what": "Severity level 10: intermediate operational impact 10",
+              "examples": [
+                "example for level 10"
+              ]
+            },
+            "11": {
+              "what": "Severity level 11: intermediate operational impact 11",
+              "examples": [
+                "example for level 11"
+              ]
+            },
+            "12": {
+              "what": "Severity level 12: intermediate operational impact 12",
+              "examples": [
+                "example for level 12"
+              ]
+            },
+            "13": {
+              "what": "Severity level 13: intermediate operational impact 13",
+              "examples": [
+                "example for level 13"
+              ]
+            },
+            "14": {
+              "what": "Severity level 14: intermediate operational impact 14",
+              "examples": [
+                "example for level 14"
+              ]
+            },
+            "15": {
+              "what": "Severity level 15: intermediate operational impact 15",
+              "examples": [
+                "example for level 15"
+              ]
+            },
+            "16": {
+              "what": "Severity level 16: intermediate operational impact 16",
+              "examples": [
+                "example for level 16"
+              ]
+            },
+            "17": {
+              "what": "Severity level 17: intermediate operational impact 17",
+              "examples": [
+                "example for level 17"
+              ]
+            },
+            "18": {
+              "what": "Severity level 18: intermediate operational impact 18",
+              "examples": [
+                "example for level 18"
+              ]
+            },
+            "19": {
+              "what": "Severity level 19: intermediate operational impact 19",
+              "examples": [
+                "example for level 19"
+              ]
+            },
+            "20": {
+              "what": "Severity level 20: intermediate operational impact 20",
+              "examples": [
+                "example for level 20"
+              ]
+            },
+            "21": {
+              "what": "Severity level 21: intermediate operational impact 21",
+              "examples": [
+                "example for level 21"
+              ]
+            },
+            "22": {
+              "what": "Severity level 22: intermediate operational impact 22",
+              "examples": [
+                "example for level 22"
+              ]
+            },
+            "23": {
+              "what": "Severity level 23: intermediate operational impact 23",
+              "examples": [
+                "example for level 23"
+              ]
+            },
+            "24": {
+              "what": "Severity level 24: intermediate operational impact 24",
+              "examples": [
+                "example for level 24"
+              ]
+            },
+            "25": {
+              "what": "Severity level 25: intermediate operational impact 25",
+              "examples": [
+                "example for level 25"
+              ]
+            },
+            "26": {
+              "what": "Severity level 26: intermediate operational impact 26",
+              "examples": [
+                "example for level 26"
+              ]
+            },
+            "27": {
+              "what": "Severity level 27: intermediate operational impact 27",
+              "examples": [
+                "example for level 27"
+              ]
+            },
+            "28": {
+              "what": "Severity level 28: intermediate operational impact 28",
+              "examples": [
+                "example for level 28"
+              ]
+            },
+            "29": {
+              "what": "Severity level 29: intermediate operational impact 29",
+              "examples": [
+                "example for level 29"
+              ]
+            },
+            "30": {
+              "what": "Severity level 30: intermediate operational impact 30",
+              "examples": [
+                "example for level 30"
+              ]
+            },
+            "31": {
+              "what": "Severity level 31: intermediate operational impact 31",
+              "examples": [
+                "example for level 31"
+              ]
+            },
+            "32": {
+              "what": "Severity level 32: intermediate operational impact 32",
+              "examples": [
+                "example for level 32"
+              ]
+            },
+            "33": {
+              "what": "Severity level 33: intermediate operational impact 33",
+              "examples": [
+                "example for level 33"
+              ]
+            },
+            "34": {
+              "what": "Severity level 34: intermediate operational impact 34",
+              "examples": [
+                "example for level 34"
+              ]
+            },
+            "35": {
+              "what": "Severity level 35: intermediate operational impact 35",
+              "examples": [
+                "example for level 35"
+              ]
+            },
+            "36": {
+              "what": "Severity level 36: intermediate operational impact 36",
+              "examples": [
+                "example for level 36"
+              ]
+            },
+            "37": {
+              "what": "Severity level 37: intermediate operational impact 37",
+              "examples": [
+                "example for level 37"
+              ]
+            },
+            "38": {
+              "what": "Severity level 38: intermediate operational impact 38",
+              "examples": [
+                "example for level 38"
+              ]
+            },
+            "39": {
+              "what": "Severity level 39: intermediate operational impact 39",
+              "examples": [
+                "example for level 39"
+              ]
+            },
+            "40": {
+              "what": "Severity level 40: intermediate operational impact 40",
+              "examples": [
+                "example for level 40"
+              ]
+            },
+            "41": {
+              "what": "Severity level 41: intermediate operational impact 41",
+              "examples": [
+                "example for level 41"
+              ]
+            },
+            "42": {
+              "what": "Severity level 42: intermediate operational impact 42",
+              "examples": [
+                "example for level 42"
+              ]
+            },
+            "43": {
+              "what": "Severity level 43: intermediate operational impact 43",
+              "examples": [
+                "example for level 43"
+              ]
+            },
+            "44": {
+              "what": "Severity level 44: intermediate operational impact 44",
+              "examples": [
+                "example for level 44"
+              ]
+            },
+            "45": {
+              "what": "Severity level 45: intermediate operational impact 45",
+              "examples": [
+                "example for level 45"
+              ]
+            },
+            "46": {
+              "what": "Severity level 46: intermediate operational impact 46",
+              "examples": [
+                "example for level 46"
+              ]
+            },
+            "47": {
+              "what": "Severity level 47: intermediate operational impact 47",
+              "examples": [
+                "example for level 47"
+              ]
+            },
+            "48": {
+              "what": "Severity level 48: intermediate operational impact 48",
+              "examples": [
+                "example for level 48"
+              ]
+            },
+            "49": {
+              "what": "Severity level 49: intermediate operational impact 49",
+              "examples": [
+                "example for level 49"
+              ]
+            },
+            "50": {
+              "what": "Severity level 50: intermediate operational impact 50",
+              "examples": [
+                "example for level 50"
+              ]
+            },
+            "51": {
+              "what": "Severity level 51: intermediate operational impact 51",
+              "examples": [
+                "example for level 51"
+              ]
+            },
+            "52": {
+              "what": "Severity level 52: intermediate operational impact 52",
+              "examples": [
+                "example for level 52"
+              ]
+            },
+            "53": {
+              "what": "Severity level 53: intermediate operational impact 53",
+              "examples": [
+                "example for level 53"
+              ]
+            },
+            "54": {
+              "what": "Severity level 54: intermediate operational impact 54",
+              "examples": [
+                "example for level 54"
+              ]
+            },
+            "55": {
+              "what": "Severity level 55: intermediate operational impact 55",
+              "examples": [
+                "example for level 55"
+              ]
+            },
+            "56": {
+              "what": "Severity level 56: intermediate operational impact 56",
+              "examples": [
+                "example for level 56"
+              ]
+            },
+            "57": {
+              "what": "Severity level 57: intermediate operational impact 57",
+              "examples": [
+                "example for level 57"
+              ]
+            },
+            "58": {
+              "what": "Severity level 58: intermediate operational impact 58",
+              "examples": [
+                "example for level 58"
+              ]
+            },
+            "59": {
+              "what": "Severity level 59: intermediate operational impact 59",
+              "examples": [
+                "example for level 59"
+              ]
+            },
+            "60": {
+              "what": "Severity level 60: intermediate operational impact 60",
+              "examples": [
+                "example for level 60"
+              ]
+            },
+            "61": {
+              "what": "Severity level 61: intermediate operational impact 61",
+              "examples": [
+                "example for level 61"
+              ]
+            },
+            "62": {
+              "what": "Severity level 62: intermediate operational impact 62",
+              "examples": [
+                "example for level 62"
+              ]
+            },
+            "63": {
+              "what": "Severity level 63: intermediate operational impact 63",
+              "examples": [
+                "example for level 63"
+              ]
+            },
+            "64": {
+              "what": "Severity level 64: intermediate operational impact 64",
+              "examples": [
+                "example for level 64"
+              ]
+            },
+            "65": {
+              "what": "Severity level 65: intermediate operational impact 65",
+              "examples": [
+                "example for level 65"
+              ]
+            },
+            "66": {
+              "what": "Severity level 66: intermediate operational impact 66",
+              "examples": [
+                "example for level 66"
+              ]
+            },
+            "67": {
+              "what": "Severity level 67: intermediate operational impact 67",
+              "examples": [
+                "example for level 67"
+              ]
+            },
+            "68": {
+              "what": "Severity level 68: intermediate operational impact 68",
+              "examples": [
+                "example for level 68"
+              ]
+            },
+            "69": {
+              "what": "Severity level 69: intermediate operational impact 69",
+              "examples": [
+                "example for level 69"
+              ]
+            },
+            "70": {
+              "what": "Severity level 70: intermediate operational impact 70",
+              "examples": [
+                "example for level 70"
+              ]
+            },
+            "71": {
+              "what": "Severity level 71: intermediate operational impact 71",
+              "examples": [
+                "example for level 71"
+              ]
+            },
+            "72": {
+              "what": "Severity level 72: intermediate operational impact 72",
+              "examples": [
+                "example for level 72"
+              ]
+            },
+            "73": {
+              "what": "Severity level 73: intermediate operational impact 73",
+              "examples": [
+                "example for level 73"
+              ]
+            },
+            "74": {
+              "what": "Severity level 74: intermediate operational impact 74",
+              "examples": [
+                "example for level 74"
+              ]
+            },
+            "75": {
+              "what": "Severity level 75: intermediate operational impact 75",
+              "examples": [
+                "example for level 75"
+              ]
+            },
+            "76": {
+              "what": "Severity level 76: intermediate operational impact 76",
+              "examples": [
+                "example for level 76"
+              ]
+            },
+            "77": {
+              "what": "Severity level 77: intermediate operational impact 77",
+              "examples": [
+                "example for level 77"
+              ]
+            },
+            "78": {
+              "what": "Severity level 78: intermediate operational impact 78",
+              "examples": [
+                "example for level 78"
+              ]
+            },
+            "79": {
+              "what": "Severity level 79: intermediate operational impact 79",
+              "examples": [
+                "example for level 79"
+              ]
+            },
+            "80": {
+              "what": "Severity level 80: intermediate operational impact 80",
+              "examples": [
+                "example for level 80"
+              ]
+            },
+            "81": {
+              "what": "Severity level 81: intermediate operational impact 81",
+              "examples": [
+                "example for level 81"
+              ]
+            },
+            "82": {
+              "what": "Severity level 82: intermediate operational impact 82",
+              "examples": [
+                "example for level 82"
+              ]
+            },
+            "83": {
+              "what": "Severity level 83: intermediate operational impact 83",
+              "examples": [
+                "example for level 83"
+              ]
+            },
+            "84": {
+              "what": "Severity level 84: intermediate operational impact 84",
+              "examples": [
+                "example for level 84"
+              ]
+            },
+            "85": {
+              "what": "Severity level 85: intermediate operational impact 85",
+              "examples": [
+                "example for level 85"
+              ]
+            },
+            "86": {
+              "what": "Severity level 86: intermediate operational impact 86",
+              "examples": [
+                "example for level 86"
+              ]
+            },
+            "87": {
+              "what": "Severity level 87: intermediate operational impact 87",
+              "examples": [
+                "example for level 87"
+              ]
+            },
+            "88": {
+              "what": "Severity level 88: intermediate operational impact 88",
+              "examples": [
+                "example for level 88"
+              ]
+            },
+            "89": {
+              "what": "Severity level 89: intermediate operational impact 89",
+              "examples": [
+                "example for level 89"
+              ]
+            },
+            "90": {
+              "what": "Severity level 90: intermediate operational impact 90",
+              "examples": [
+                "example for level 90"
+              ]
+            },
+            "91": {
+              "what": "Severity level 91: intermediate operational impact 91",
+              "examples": [
+                "example for level 91"
+              ]
+            },
+            "92": {
+              "what": "Severity level 92: intermediate operational impact 92",
+              "examples": [
+                "example for level 92"
+              ]
+            },
+            "93": {
+              "what": "Severity level 93: intermediate operational impact 93",
+              "examples": [
+                "example for level 93"
+              ]
+            },
+            "94": {
+              "what": "Severity level 94: intermediate operational impact 94",
+              "examples": [
+                "example for level 94"
+              ]
+            },
+            "95": {
+              "what": "Severity level 95: intermediate operational impact 95",
+              "examples": [
+                "example for level 95"
+              ]
+            },
+            "96": {
+              "what": "Severity level 96: intermediate operational impact 96",
+              "examples": [
+                "example for level 96"
+              ]
+            },
+            "97": {
+              "what": "Severity level 97: intermediate operational impact 97",
+              "examples": [
+                "example for level 97"
+              ]
+            },
+            "98": {
+              "what": "Severity level 98: intermediate operational impact 98",
+              "examples": [
+                "example for level 98"
+              ]
+            },
+            "99": {
+              "what": "Severity level 99: complete outage and data loss",
+              "examples": [
+                "example for level 99"
+              ]
+            }
+          },
+          "ms": 46.4670999936061,
+          "cached": false,
+          "input_tokens": 434
+        }
+      ],
+      "inversion": [
+        {
+          "order": "normal",
+          "answer": {
+            "type": "score",
+            "score": 1.1253,
+            "legend": {
+              "0": {
+                "what": "Minor: cosmetic issue, nothing is broken",
+                "examples": [
+                  "typo"
+                ]
+              },
+              "1": {
+                "what": "Moderate: feature is degraded but workaround exists",
+                "examples": [
+                  "one browser fails"
+                ]
+              },
+              "2": {
+                "what": "Critical: complete outage, no workaround, or data loss",
+                "examples": [
+                  "nobody can log in"
+                ]
+              }
+            },
+            "probabilities": {
+              "0": 0.1787,
+              "1": 0.5172,
+              "2": 0.3041
+            },
+            "confidence": 0.08,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 39.4285999936983,
+          "cached": false,
+          "input_tokens": 114
+        },
+        {
+          "order": "reversed",
+          "answer": {
+            "type": "score",
+            "score": 1.2571,
+            "legend": {
+              "0": {
+                "what": "Critical: complete outage, no workaround, or data loss",
+                "examples": [
+                  "nobody can log in"
+                ]
+              },
+              "1": {
+                "what": "Moderate: feature is degraded but workaround exists",
+                "examples": [
+                  "one browser fails"
+                ]
+              },
+              "2": {
+                "what": "Minor: cosmetic issue, nothing is broken",
+                "examples": [
+                  "typo"
+                ]
+              }
+            },
+            "probabilities": {
+              "0": 0.2235,
+              "1": 0.296,
+              "2": 0.4805
+            },
+            "confidence": 0.0466,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 33.56270000222139,
+          "cached": false,
+          "input_tokens": 114
+        }
+      ],
+      "determinism": {
+        "repeats": 1,
+        "choices": [
+          "billing"
+        ],
+        "max_probability_delta": 0,
+        "confidence_values": [
+          0.9693
+        ],
+        "rows": [
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 38.88720000395551,
+            "cached": false
+          }
+        ]
+      }
+    },
+    "jev-1.13.0": {
+      "sweep": [
+        {
+          "levels": 2,
+          "score": 0.99,
+          "expected_from_probabilities": 0.99,
+          "difference": 0.0,
+          "variance_from_probabilities": 0.0099,
+          "confidence": 0.99,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: complete outage and data loss', 'examples': ['example for level 1']}"
+          },
+          "ms": 862.2566000121878,
+          "cached": false,
+          "input_tokens": 368
+        },
+        {
+          "levels": 3,
+          "score": 1.95,
+          "expected_from_probabilities": 1.96,
+          "difference": -0.010000000000000009,
+          "variance_from_probabilities": 0.038400000000000004,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.04,
+            "2": 0.96
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: complete outage and data loss', 'examples': ['example for level 2']}"
+          },
+          "ms": 249.91310000768863,
+          "cached": false,
+          "input_tokens": 403
+        },
+        {
+          "levels": 4,
+          "score": 2.97,
+          "expected_from_probabilities": 2.98,
+          "difference": -0.009999999999999787,
+          "variance_from_probabilities": 0.0196,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.02,
+            "3": 0.98
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: complete outage and data loss', 'examples': ['example for level 3']}"
+          },
+          "ms": 236.4918000093894,
+          "cached": false,
+          "input_tokens": 438
+        },
+        {
+          "levels": 5,
+          "score": 3.95,
+          "expected_from_probabilities": 3.96,
+          "difference": -0.009999999999999787,
+          "variance_from_probabilities": 0.0584,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.01,
+            "3": 0.02,
+            "4": 0.97
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: complete outage and data loss', 'examples': ['example for level 4']}"
+          },
+          "ms": 298.99680000380613,
+          "cached": false,
+          "input_tokens": 473
+        },
+        {
+          "levels": 6,
+          "score": 4.94,
+          "expected_from_probabilities": 4.95,
+          "difference": -0.009999999999999787,
+          "variance_from_probabilities": 0.0675,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.01,
+            "4": 0.03,
+            "5": 0.96
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: complete outage and data loss', 'examples': ['example for level 5']}"
+          },
+          "ms": 267.338399993605,
+          "cached": false,
+          "input_tokens": 508
+        },
+        {
+          "levels": 7,
+          "score": 5.9,
+          "expected_from_probabilities": 5.919999999999999,
+          "difference": -0.019999999999998685,
+          "variance_from_probabilities": 0.1536,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.01,
+            "4": 0.01,
+            "5": 0.03,
+            "6": 0.95
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: complete outage and data loss', 'examples': ['example for level 6']}"
+          },
+          "ms": 260.41149999946356,
+          "cached": false,
+          "input_tokens": 543
+        },
+        {
+          "levels": 8,
+          "score": 6.88,
+          "expected_from_probabilities": 6.919999999999999,
+          "difference": -0.03999999999999915,
+          "variance_from_probabilities": 0.1536,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.01,
+            "5": 0.01,
+            "6": 0.03,
+            "7": 0.95
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: complete outage and data loss', 'examples': ['example for level 7']}"
+          },
+          "ms": 281.42889999435283,
+          "cached": false,
+          "input_tokens": 578
+        },
+        {
+          "levels": 9,
+          "score": 7.88,
+          "expected_from_probabilities": 7.93,
+          "difference": -0.04999999999999982,
+          "variance_from_probabilities": 0.1451,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.01,
+            "6": 0.01,
+            "7": 0.02,
+            "8": 0.96
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: intermediate operational impact 7', 'examples': ['example for level 7']}",
+            "8": "{'what': 'Severity level 8: complete outage and data loss', 'examples': ['example for level 8']}"
+          },
+          "ms": 252.14510000660084,
+          "cached": false,
+          "input_tokens": 613
+        },
+        {
+          "levels": 10,
+          "score": 8.84,
+          "expected_from_probabilities": 8.82,
+          "difference": 0.019999999999999574,
+          "variance_from_probabilities": 0.16967599999999997,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.01,
+            "7": 0.01,
+            "8": 0.04,
+            "9": 0.93
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: intermediate operational impact 7', 'examples': ['example for level 7']}",
+            "8": "{'what': 'Severity level 8: intermediate operational impact 8', 'examples': ['example for level 8']}",
+            "9": "{'what': 'Severity level 9: complete outage and data loss', 'examples': ['example for level 9']}"
+          },
+          "ms": 266.10370000707917,
+          "cached": false,
+          "input_tokens": 649
+        },
+        {
+          "levels": 15,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        },
+        {
+          "levels": 20,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        },
+        {
+          "levels": 30,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        },
+        {
+          "levels": 50,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        },
+        {
+          "levels": 75,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        },
+        {
+          "levels": 100,
+          "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":\"Too many score levels. Must have at most 10 levels.\"}"
+        }
+      ],
+      "inversion": [
+        {
+          "order": "normal",
+          "answer": {
+            "type": "score",
+            "score": 2.0,
+            "confidence": 1.0,
+            "probabilities": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 1.0
+            },
+            "legend": {
+              "0": "{'what': 'Minor: cosmetic issue, nothing is broken', 'examples': ['typo']}",
+              "1": "{'what': 'Moderate: feature is degraded but workaround exists', 'examples': ['one browser fails']}",
+              "2": "{'what': 'Critical: complete outage, no workaround, or data loss', 'examples': ['nobody can log in']}"
+            }
+          },
+          "ms": 255.18860000011045,
+          "cached": false,
+          "input_tokens": 398
+        },
+        {
+          "order": "reversed",
+          "answer": {
+            "type": "score",
+            "score": 0.0,
+            "confidence": 1.0,
+            "probabilities": {
+              "0": 1.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "legend": {
+              "0": "{'what': 'Critical: complete outage, no workaround, or data loss', 'examples': ['nobody can log in']}",
+              "1": "{'what': 'Moderate: feature is degraded but workaround exists', 'examples': ['one browser fails']}",
+              "2": "{'what': 'Minor: cosmetic issue, nothing is broken', 'examples': ['typo']}"
+            }
+          },
+          "ms": 265.43559999845456,
+          "cached": false,
+          "input_tokens": 398
+        }
+      ],
+      "determinism": {
+        "repeats": 1,
+        "choices": [
+          "billing"
+        ],
+        "max_probability_delta": 0,
+        "confidence_values": [
+          1.0
+        ],
+        "rows": [
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 838.2334999914747,
+            "cached": false
+          }
+        ]
+      }
+    }
+  }
+}

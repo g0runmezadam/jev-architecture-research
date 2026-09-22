@@ -1,0 +1,56 @@
+[
+  {
+    "claim": "Jev uses dynamic semantic option encoding",
+    "evidence": ["label permutation robustness", "semantic decoy redistribution", "near-duplicate competition"],
+    "confidence": "high",
+    "sources": ["clduab11-jev-test/results/architecture-probes-short.json", "clduab11-jev-test/results/semantic-decision-geometry.json", "clduab11-jev-test/results/stage-detection.json"],
+    "counterarguments": ["prompt wording effects", "hidden fixed ontology with semantic wrapper"],
+    "status": "supported",
+    "epistemic_label": "inferred"
+  },
+  {
+    "claim": "Jev has a shared or batch-aware state representation",
+    "evidence": ["sub-linear question scaling", "bounded latency across moderate option growth", "multi-question inference"],
+    "confidence": "high behavioral, medium architectural",
+    "sources": ["clduab11-jev-test/results/architecture-probes-scaling.json", "clduab11-jev-test/results/latency-surface-bounded.json"],
+    "counterarguments": ["provider batching", "endpoint scheduling"],
+    "status": "supported",
+    "epistemic_label": "inferred"
+  },
+  {
+    "claim": "Jev uses a ranking-like semantic decision layer",
+    "evidence": ["close-option probability redistribution", "score inversion", "duplicate anchor competition"],
+    "confidence": "medium-high",
+    "sources": ["clduab11-jev-test/results/score-probes.json", "clduab11-jev-test/results/semantic-decision-geometry.json", "clduab11-jev-test/results/cluster-duplicate-attribution.json"],
+    "counterarguments": ["a calibrated categorical head can mimic ranking", "option wording confounds"],
+    "status": "supported",
+    "epistemic_label": "inferred"
+  },
+  {
+    "claim": "Global joint semantic scoring is more likely than strong cluster-first filtering",
+    "evidence": ["720/720 target winners", "720/720 cluster winners", "cluster mass stable across four layouts", "no large layout latency break"],
+    "confidence": "medium-high",
+    "sources": ["clduab11-jev-test/results/final-pipeline-attribution.json"],
+    "counterarguments": ["hidden top-k preserving the target cluster", "provider-side batching"],
+    "status": "weakly supported",
+    "epistemic_label": "inferred"
+  },
+  {
+    "claim": "Calibration is imperfect and context-sensitive",
+    "evidence": ["Brier 0.0030 and ECE 0.0477 on synthetic suite", "ambiguity entropy increases", "high-confidence negation/collision errors"],
+    "confidence": "medium-high",
+    "sources": ["clduab11-jev-test/results/deep-jev-vs-laya-english.json", "clduab11-jev-test/results/manifold-language-probes.json", "clduab11-jev-test/results/behavioral-research-probes.json"],
+    "counterarguments": ["synthetic labels", "subjective failure golds"],
+    "status": "supported",
+    "epistemic_label": "observed plus inferred"
+  },
+  {
+    "claim": "The exact backbone, loss and sampler are not identifiable from current black-box evidence",
+    "evidence": ["multiple architectural explanations fit the latency and output behavior", "no weights or traces"],
+    "confidence": "high",
+    "sources": ["docs/FINAL_META_ANALYSIS.md"],
+    "counterarguments": ["future provider ablations may narrow the class"],
+    "status": "known limitation",
+    "epistemic_label": "inferred"
+  }
+]

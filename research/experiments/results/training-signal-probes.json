@@ -1,0 +1,1002 @@
+{
+  "created_at": "2026-09-21T23:35:09+0300",
+  "experiments": {
+    "laya-multilingual": {
+      "counterfactual": [
+        {
+          "variant": "base",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.2874,
+              "confidence": 0.7126,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.3016,
+              "confidence": 0.6984,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.1198,
+              "confidence": 0.8802,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 338.56799999193754
+        },
+        {
+          "variant": "technical",
+          "state": {
+            "issue": "technical",
+            "urgency": "low",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0165,
+              "confidence": 0.9835,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.454,
+              "confidence": 0.546,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.0063,
+              "confidence": 0.9937,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 29.111000010743737
+        },
+        {
+          "variant": "urgent",
+          "state": {
+            "issue": "billing",
+            "urgency": "high",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.3559,
+              "confidence": 0.6441,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.2654,
+              "confidence": 0.7346,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.2641,
+              "confidence": 0.7359,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 24.858999997377396
+        },
+        {
+          "variant": "fraud",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": true,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.6605,
+              "confidence": 0.6605,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.332,
+              "confidence": 0.668,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.1224,
+              "confidence": 0.8776,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 20.8145000069635
+        },
+        {
+          "variant": "turkish",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": false,
+            "language": "Turkish"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.6081,
+              "confidence": 0.6081,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.3416,
+              "confidence": 0.6584,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.3442,
+              "confidence": 0.6558,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 23.366399997030385
+        }
+      ],
+      "orthogonal": [
+        {
+          "variant": "billing",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0787,
+              "confidence": 0.9213,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.3617,
+              "confidence": 0.6383,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.0895,
+              "confidence": 0.9105,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.0154,
+              "confidence": 0.9846,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 26.530700008152053
+        },
+        {
+          "variant": "urgent",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0445,
+              "confidence": 0.9555,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.407,
+              "confidence": 0.593,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.0848,
+              "confidence": 0.9152,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.0167,
+              "confidence": 0.9833,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 17.045099986717105
+        },
+        {
+          "variant": "fraud",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0483,
+              "confidence": 0.9517,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.1744,
+              "confidence": 0.8256,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.1192,
+              "confidence": 0.8808,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.021,
+              "confidence": 0.979,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 22.52099999168422
+        },
+        {
+          "variant": "angry",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0266,
+              "confidence": 0.9734,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.4507,
+              "confidence": 0.5493,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.2824,
+              "confidence": 0.7176,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.9634,
+              "confidence": 0.9634,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 16.721000007237308
+        },
+        {
+          "variant": "all",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.0388,
+              "confidence": 0.9612,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.6575,
+              "confidence": 0.6575,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.3835,
+              "confidence": 0.6165,
+              "action": {
+                "act_probability": 1.0
+              }
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.9677,
+              "confidence": 0.9677,
+              "action": {
+                "act_probability": 1.0
+              }
+            }
+          },
+          "ms": 19.555300008505583
+        }
+      ],
+      "contradiction": [
+        {
+          "case": "customer_yes_metadata_no",
+          "state": {
+            "customer": "I want a refund for the duplicate charge.",
+            "metadata": {
+              "refund_requested": false
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.8995,
+            "confidence": 0.8995,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 15.050599991809577
+        },
+        {
+          "case": "customer_no_metadata_yes",
+          "state": {
+            "customer": "I do not want a refund; the charge is correct.",
+            "metadata": {
+              "refund_requested": true
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.976,
+            "confidence": 0.976,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 12.862899995525368
+        },
+        {
+          "case": "both_yes",
+          "state": {
+            "customer": "Please refund the duplicate charge.",
+            "metadata": {
+              "refund_requested": true
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.9179,
+            "confidence": 0.9179,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 12.880099995527416
+        },
+        {
+          "case": "both_no",
+          "state": {
+            "customer": "Please explain the invoice; no refund is requested.",
+            "metadata": {
+              "refund_requested": false
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.9476,
+            "confidence": 0.9476,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 13.335399999050424
+        }
+      ],
+      "evidence_accumulation": [
+        {
+          "n_evidence": 1,
+          "p_true": 0.952,
+          "ms": 32.56699998746626,
+          "input_tokens": 64
+        },
+        {
+          "n_evidence": 2,
+          "p_true": 0.9686,
+          "ms": 14.229699998395517,
+          "input_tokens": 80
+        },
+        {
+          "n_evidence": 5,
+          "p_true": 0.9725,
+          "ms": 13.931000008597039,
+          "input_tokens": 128
+        },
+        {
+          "n_evidence": 10,
+          "p_true": 0.9767,
+          "ms": 25.44649998890236,
+          "input_tokens": 208
+        },
+        {
+          "n_evidence": 20,
+          "p_true": 0.9759,
+          "ms": 18.444700006511994,
+          "input_tokens": 378
+        }
+      ],
+      "semantic_options": [
+        {
+          "case": "duplicate_charge",
+          "state": "I was charged twice for the same payment and need the duplicate refunded.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9964,
+              "invoice": 0.0,
+              "payment_issue": 0.0035,
+              "subscription": 0.0,
+              "accounting": 0.0
+            },
+            "confidence": 0.9853,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 17.092200010665692
+        },
+        {
+          "case": "invoice_copy",
+          "state": "Please send me a copy of last month's invoice.",
+          "answer": {
+            "type": "choice",
+            "choice": "invoice",
+            "probabilities": {
+              "billing": 0.0,
+              "invoice": 1.0,
+              "payment_issue": 0.0,
+              "subscription": 0.0,
+              "accounting": 0.0
+            },
+            "confidence": 1.0,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 29.971700001624413
+        },
+        {
+          "case": "cancel_plan",
+          "state": "I want to cancel my subscription immediately.",
+          "answer": {
+            "type": "choice",
+            "choice": "subscription",
+            "probabilities": {
+              "billing": 0.0,
+              "invoice": 0.0,
+              "payment_issue": 0.0,
+              "subscription": 1.0,
+              "accounting": 0.0
+            },
+            "confidence": 0.9999,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 28.29419999034144
+        },
+        {
+          "case": "bookkeeping",
+          "state": "Our accountant needs the ledger export for reconciliation.",
+          "answer": {
+            "type": "choice",
+            "choice": "accounting",
+            "probabilities": {
+              "billing": 0.0071,
+              "invoice": 0.0473,
+              "payment_issue": 0.0012,
+              "subscription": 0.0058,
+              "accounting": 0.9386
+            },
+            "confidence": 0.828,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 26.276200005668215
+        },
+        {
+          "case": "card_failed",
+          "state": "My card payment failed at checkout.",
+          "answer": {
+            "type": "choice",
+            "choice": "payment_issue",
+            "probabilities": {
+              "billing": 0.0,
+              "invoice": 0.0,
+              "payment_issue": 1.0,
+              "subscription": 0.0,
+              "accounting": 0.0
+            },
+            "confidence": 0.9998,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 31.49380000832025
+        }
+      ]
+    },
+    "jev-1.13.0": {
+      "counterfactual": [
+        {
+          "variant": "base",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.82
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.04
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.02
+            }
+          },
+          "ms": 929.0068999980576
+        },
+        {
+          "variant": "technical",
+          "state": {
+            "issue": "technical",
+            "urgency": "low",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.06
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.04
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.02
+            }
+          },
+          "ms": 269.48580000316724
+        },
+        {
+          "variant": "urgent",
+          "state": {
+            "issue": "billing",
+            "urgency": "high",
+            "fraud": false,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.93
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.93
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.03
+            }
+          },
+          "ms": 323.8623999932315
+        },
+        {
+          "variant": "fraud",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": true,
+            "language": "English"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.86
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.06
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.97
+            }
+          },
+          "ms": 268.49059999221936
+        },
+        {
+          "variant": "turkish",
+          "state": {
+            "issue": "billing",
+            "urgency": "low",
+            "fraud": false,
+            "language": "Turkish"
+          },
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.88
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.04
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.02
+            }
+          },
+          "ms": 304.2465999897104
+        }
+      ],
+      "orthogonal": [
+        {
+          "variant": "billing",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.84
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.02
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.02
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.03
+            }
+          },
+          "ms": 289.86340000119526
+        },
+        {
+          "variant": "urgent",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.05
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.95
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.02
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.04
+            }
+          },
+          "ms": 311.63919999380596
+        },
+        {
+          "variant": "fraud",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.05
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.04
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.98
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.04
+            }
+          },
+          "ms": 277.56000000226777
+        },
+        {
+          "variant": "angry",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.06
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.05
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.03
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.98
+            }
+          },
+          "ms": 268.7813999946229
+        },
+        {
+          "variant": "all",
+          "answers": {
+            "billing": {
+              "type": "noul",
+              "noul": 0.91
+            },
+            "urgent": {
+              "type": "noul",
+              "noul": 0.97
+            },
+            "fraud": {
+              "type": "noul",
+              "noul": 0.98
+            },
+            "angry": {
+              "type": "noul",
+              "noul": 0.98
+            }
+          },
+          "ms": 285.0883000064641
+        }
+      ],
+      "contradiction": [
+        {
+          "case": "customer_yes_metadata_no",
+          "state": {
+            "customer": "I want a refund for the duplicate charge.",
+            "metadata": {
+              "refund_requested": false
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "ms": 269.2384999973001
+        },
+        {
+          "case": "customer_no_metadata_yes",
+          "state": {
+            "customer": "I do not want a refund; the charge is correct.",
+            "metadata": {
+              "refund_requested": true
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "ms": 316.14840000111144
+        },
+        {
+          "case": "both_yes",
+          "state": {
+            "customer": "Please refund the duplicate charge.",
+            "metadata": {
+              "refund_requested": true
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.99
+          },
+          "ms": 298.4137000021292
+        },
+        {
+          "case": "both_no",
+          "state": {
+            "customer": "Please explain the invoice; no refund is requested.",
+            "metadata": {
+              "refund_requested": false
+            }
+          },
+          "answer": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "ms": 278.4155999979703
+        }
+      ],
+      "evidence_accumulation": [
+        {
+          "n_evidence": 1,
+          "p_true": 0.97,
+          "ms": 334.77670000866055,
+          "input_tokens": 312
+        },
+        {
+          "n_evidence": 2,
+          "p_true": 0.97,
+          "ms": 334.14850001281593,
+          "input_tokens": 330
+        },
+        {
+          "n_evidence": 5,
+          "p_true": 0.98,
+          "ms": 283.2958999933908,
+          "input_tokens": 384
+        },
+        {
+          "n_evidence": 10,
+          "p_true": 0.99,
+          "ms": 280.96499999810476,
+          "input_tokens": 474
+        },
+        {
+          "n_evidence": 20,
+          "p_true": 0.99,
+          "ms": 298.775499992189,
+          "input_tokens": 664
+        }
+      ],
+      "semantic_options": [
+        {
+          "case": "duplicate_charge",
+          "state": "I was charged twice for the same payment and need the duplicate refunded.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.51,
+            "probabilities": {
+              "billing": 0.61,
+              "subscription": 0.0,
+              "accounting": 0.0,
+              "payment_issue": 0.39,
+              "invoice": 0.0
+            }
+          },
+          "ms": 319.1759000037564
+        },
+        {
+          "case": "invoice_copy",
+          "state": "Please send me a copy of last month's invoice.",
+          "answer": {
+            "type": "choice",
+            "choice": "invoice",
+            "confidence": 1.0,
+            "probabilities": {
+              "payment_issue": 0.0,
+              "billing": 0.0,
+              "subscription": 0.0,
+              "invoice": 1.0,
+              "accounting": 0.0
+            }
+          },
+          "ms": 344.378499998129
+        },
+        {
+          "case": "cancel_plan",
+          "state": "I want to cancel my subscription immediately.",
+          "answer": {
+            "type": "choice",
+            "choice": "subscription",
+            "confidence": 1.0,
+            "probabilities": {
+              "subscription": 1.0,
+              "accounting": 0.0,
+              "payment_issue": 0.0,
+              "invoice": 0.0,
+              "billing": 0.0
+            }
+          },
+          "ms": 315.77040000411216
+        },
+        {
+          "case": "bookkeeping",
+          "state": "Our accountant needs the ledger export for reconciliation.",
+          "answer": {
+            "type": "choice",
+            "choice": "accounting",
+            "confidence": 1.0,
+            "probabilities": {
+              "payment_issue": 0.0,
+              "accounting": 1.0,
+              "subscription": 0.0,
+              "billing": 0.0,
+              "invoice": 0.0
+            }
+          },
+          "ms": 277.3033999983454
+        },
+        {
+          "case": "card_failed",
+          "state": "My card payment failed at checkout.",
+          "answer": {
+            "type": "choice",
+            "choice": "payment_issue",
+            "confidence": 0.99,
+            "probabilities": {
+              "invoice": 0.0,
+              "accounting": 0.0,
+              "billing": 0.0,
+              "subscription": 0.0,
+              "payment_issue": 1.0
+            }
+          },
+          "ms": 306.61980000149924
+        }
+      ]
+    }
+  }
+}

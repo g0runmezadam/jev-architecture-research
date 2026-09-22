@@ -1,0 +1,170 @@
+{
+  "created_at": "2026-09-21T23:18:28+0300",
+  "experiments": {
+    "laya-multilingual": {
+      "question_scaling": [
+        {
+          "n_questions": 1,
+          "correct": 1,
+          "accuracy": 1.0,
+          "response_answers": 1,
+          "ms": 319.1706000070553,
+          "ms_per_question": 319.1706000070553,
+          "cached": false,
+          "input_tokens": 66,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 2,
+          "correct": 2,
+          "accuracy": 1.0,
+          "response_answers": 2,
+          "ms": 20.20089999132324,
+          "ms_per_question": 10.10044999566162,
+          "cached": false,
+          "input_tokens": 132,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 5,
+          "correct": 5,
+          "accuracy": 1.0,
+          "response_answers": 5,
+          "ms": 15.705500001786277,
+          "ms_per_question": 3.1411000003572553,
+          "cached": false,
+          "input_tokens": 330,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 10,
+          "correct": 10,
+          "accuracy": 1.0,
+          "response_answers": 10,
+          "ms": 75.28459999593906,
+          "ms_per_question": 7.528459999593906,
+          "cached": false,
+          "input_tokens": 670,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "response_answers": 20,
+          "ms": 33.99830000125803,
+          "ms_per_question": 1.6999150000629015,
+          "cached": false,
+          "input_tokens": 1350,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 50,
+          "correct": 50,
+          "accuracy": 1.0,
+          "response_answers": 50,
+          "ms": 72.9806000017561,
+          "ms_per_question": 1.459612000035122,
+          "cached": false,
+          "input_tokens": 3390,
+          "output_tokens": 0
+        },
+        {
+          "n_questions": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "response_answers": 100,
+          "ms": 127.88020000152756,
+          "ms_per_question": 1.2788020000152756,
+          "cached": false,
+          "input_tokens": 6890,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "jev-1.13.0": {
+      "question_scaling": [
+        {
+          "n_questions": 1,
+          "correct": 1,
+          "accuracy": 1.0,
+          "response_answers": 1,
+          "ms": 1286.0421999939717,
+          "ms_per_question": 1286.0421999939717,
+          "cached": false,
+          "input_tokens": 363,
+          "output_tokens": 41
+        },
+        {
+          "n_questions": 2,
+          "correct": 2,
+          "accuracy": 1.0,
+          "response_answers": 2,
+          "ms": 328.4724999975879,
+          "ms_per_question": 164.23624999879394,
+          "cached": false,
+          "input_tokens": 446,
+          "output_tokens": 79
+        },
+        {
+          "n_questions": 5,
+          "correct": 5,
+          "accuracy": 1.0,
+          "response_answers": 5,
+          "ms": 283.5911000001943,
+          "ms_per_question": 56.718220000038855,
+          "cached": false,
+          "input_tokens": 695,
+          "output_tokens": 193
+        },
+        {
+          "n_questions": 10,
+          "correct": 10,
+          "accuracy": 1.0,
+          "response_answers": 10,
+          "ms": 264.2000000050757,
+          "ms_per_question": 26.42000000050757,
+          "cached": false,
+          "input_tokens": 1111,
+          "output_tokens": 383
+        },
+        {
+          "n_questions": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "response_answers": 20,
+          "ms": 302.2417000029236,
+          "ms_per_question": 15.11208500014618,
+          "cached": false,
+          "input_tokens": 1951,
+          "output_tokens": 763
+        },
+        {
+          "n_questions": 50,
+          "correct": 50,
+          "accuracy": 1.0,
+          "response_answers": 50,
+          "ms": 330.48089999647345,
+          "ms_per_question": 6.609617999929469,
+          "cached": false,
+          "input_tokens": 4471,
+          "output_tokens": 1903
+        },
+        {
+          "n_questions": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "response_answers": 100,
+          "ms": 349.28800001216587,
+          "ms_per_question": 3.4928800001216587,
+          "cached": false,
+          "input_tokens": 8672,
+          "output_tokens": 3803
+        }
+      ]
+    }
+  },
+  "selected": [
+    "scaling"
+  ]
+}

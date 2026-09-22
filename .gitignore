@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Local model/cache artifacts
+hf-cache/
+**/json_cache/
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Bulk/private benchmark outputs
+**/D_*_simpleqa_*.json
+**/A_*_simpleqa_*.json
+**/B_*_simpleqa_*.json
+**/C-self_*_simpleqa_*.json
+**/C-self_*_pilot_*.json
+**/recall_*.json
+**/gate_replay_worklist.jsonl
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

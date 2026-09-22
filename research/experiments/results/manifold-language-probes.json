@@ -1,0 +1,1296 @@
+{
+  "created_at": "2026-09-21T23:50:20+0300",
+  "concepts": [
+    "billing",
+    "invoice",
+    "payment_issue",
+    "duplicate_charge",
+    "refund",
+    "subscription",
+    "technical",
+    "bug",
+    "outage",
+    "account"
+  ],
+  "experiments": {
+    "laya-multilingual": {
+      "manifold": [
+        {
+          "source": "billing",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "invoice": 0.0,
+            "payment_issue": 0.0,
+            "duplicate_charge": 0.0,
+            "refund": 0.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "account": 0.0
+          },
+          "ms": 1055.4537999996683
+        },
+        {
+          "source": "invoice",
+          "choice": "invoice",
+          "confidence": 0.9999,
+          "probabilities": {
+            "billing": 0.0,
+            "invoice": 1.0,
+            "payment_issue": 0.0,
+            "duplicate_charge": 0.0,
+            "refund": 0.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "account": 0.0
+          },
+          "ms": 32.16539999993984
+        },
+        {
+          "source": "payment_issue",
+          "choice": "payment_issue",
+          "confidence": 0.9996,
+          "probabilities": {
+            "billing": 0.0,
+            "invoice": 0.0,
+            "payment_issue": 0.9999,
+            "duplicate_charge": 0.0,
+            "refund": 0.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "account": 0.0
+          },
+          "ms": 32.55370000260882
+        },
+        {
+          "source": "duplicate_charge",
+          "choice": "duplicate_charge",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 0.0,
+            "invoice": 0.0,
+            "payment_issue": 0.0,
+            "duplicate_charge": 1.0,
+            "refund": 0.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "account": 0.0
+          },
+          "ms": 30.371699991519563
+        },
+        {
+          "source": "refund",
+          "choice": "refund",
+          "confidence": 0.9999,
+          "probabilities": {
+            "billing": 0.0,
+            "invoice": 0.0,
+            "payment_issue": 0.0,
+            "duplicate_charge": 0.0,
+            "refund": 1.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "account": 0.0
+          },
+          "ms": 32.721800002036616
+        },
+        {
+          "source": "subscription",
+          "choice": "subscription",
+          "confidence": 0.9904,
+          "probabilities": {
+            "billing": 0.0003,
+            "invoice": 0.0007,
+            "payment_issue": 0.0002,
+            "duplicate_charge": 0.0002,
+            "refund": 0.0003,
+            "subscription": 0.9975,
+            "technical": 0.0005,
+            "bug": 0.0001,
+            "outage": 0.0001,
+            "account": 0.0001
+          },
+          "ms": 29.964000001200475
+        },
+        {
+          "source": "technical",
+          "choice": "technical",
+          "confidence": 0.8386,
+          "probabilities": {
+            "billing": 0.0032,
+            "invoice": 0.0062,
+            "payment_issue": 0.0086,
+            "duplicate_charge": 0.005,
+            "refund": 0.0038,
+            "subscription": 0.0043,
+            "technical": 0.9311,
+            "bug": 0.0324,
+            "outage": 0.0027,
+            "account": 0.0028
+          },
+          "ms": 33.475199990789406
+        },
+        {
+          "source": "bug",
+          "choice": "bug",
+          "confidence": 0.8422,
+          "probabilities": {
+            "billing": 0.0003,
+            "invoice": 0.0011,
+            "payment_issue": 0.0224,
+            "duplicate_charge": 0.0004,
+            "refund": 0.0006,
+            "subscription": 0.0004,
+            "technical": 0.0607,
+            "bug": 0.9134,
+            "outage": 0.0004,
+            "account": 0.0003
+          },
+          "ms": 37.6815999916289
+        },
+        {
+          "source": "outage",
+          "choice": "outage",
+          "confidence": 0.9864,
+          "probabilities": {
+            "billing": 0.0002,
+            "invoice": 0.0009,
+            "payment_issue": 0.0001,
+            "duplicate_charge": 0.0002,
+            "refund": 0.0002,
+            "subscription": 0.0004,
+            "technical": 0.0015,
+            "bug": 0.0001,
+            "outage": 0.9962,
+            "account": 0.0001
+          },
+          "ms": 40.03630000806879
+        },
+        {
+          "source": "account",
+          "choice": "account",
+          "confidence": 0.2743,
+          "probabilities": {
+            "billing": 0.0169,
+            "invoice": 0.0417,
+            "payment_issue": 0.1179,
+            "duplicate_charge": 0.0315,
+            "refund": 0.0386,
+            "subscription": 0.0305,
+            "technical": 0.094,
+            "bug": 0.1305,
+            "outage": 0.0081,
+            "account": 0.4902
+          },
+          "ms": 38.86330001114402
+        }
+      ],
+      "information_bottleneck": [
+        {
+          "step": 1,
+          "state": "The customer asks for help.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.3822,
+              "technical": 0.1347,
+              "sales": 0.1587,
+              "account": 0.3244
+            },
+            "confidence": 0.0659,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 59.738399999332614
+        },
+        {
+          "step": 2,
+          "state": "The customer asks for help with an invoice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0,
+              "account": 0.0
+            },
+            "confidence": 1.0,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 31.381000007968396
+        },
+        {
+          "step": 3,
+          "state": "The customer says they were charged twice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9991,
+              "technical": 0.0004,
+              "sales": 0.0003,
+              "account": 0.0002
+            },
+            "confidence": 0.9942,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 33.06120001070667
+        },
+        {
+          "step": 4,
+          "state": "The customer says the same card was charged twice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9039,
+              "technical": 0.0037,
+              "sales": 0.0051,
+              "account": 0.0873
+            },
+            "confidence": 0.7462,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 35.03749999799766
+        },
+        {
+          "step": 5,
+          "state": "The customer says the same card was charged twice and explicitly requests a refund.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9973,
+              "technical": 0.0001,
+              "sales": 0.0002,
+              "account": 0.0024
+            },
+            "confidence": 0.9858,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 36.40369999629911
+        }
+      ],
+      "counterfactual_geometry": [
+        {
+          "phrase": "refund requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.9794,
+            "confidence": 0.9794,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 36.80760000133887
+        },
+        {
+          "phrase": "refund not requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.8506,
+            "confidence": 0.8506,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 37.212900002487004
+        },
+        {
+          "phrase": "refund maybe requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.8143,
+            "confidence": 0.8143,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 30.3054000105476
+        },
+        {
+          "phrase": "refund probably requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.4373,
+            "confidence": 0.5627,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 25.67109999654349
+        },
+        {
+          "phrase": "refund definitely requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.9279,
+            "confidence": 0.9279,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 32.2510000114562
+        }
+      ],
+      "confidence_attack": [
+        {
+          "case": "clear_billing",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 0.9995,
+          "probabilities": {
+            "billing": 0.9999,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 24.648000005981885
+        },
+        {
+          "case": "clear_technical",
+          "gold": "technical",
+          "choice": "technical",
+          "correct": true,
+          "confidence": 0.9851,
+          "probabilities": {
+            "billing": 0.0008,
+            "technical": 0.9974,
+            "sales": 0.0014,
+            "account": 0.0004
+          },
+          "ms": 28.079099996830337
+        },
+        {
+          "case": "contradiction_billing",
+          "gold": "billing",
+          "choice": "technical",
+          "correct": false,
+          "confidence": 0.6878,
+          "probabilities": {
+            "billing": 0.1302,
+            "technical": 0.8627,
+            "sales": 0.0033,
+            "account": 0.0038
+          },
+          "ms": 30.79460001026746
+        },
+        {
+          "case": "contradiction_technical",
+          "gold": "technical",
+          "choice": "billing",
+          "correct": false,
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 27.070299998740666
+        },
+        {
+          "case": "misleading_keyword",
+          "gold": "technical",
+          "choice": "technical",
+          "correct": true,
+          "confidence": 0.9509,
+          "probabilities": {
+            "billing": 0.0091,
+            "technical": 0.9888,
+            "sales": 0.0006,
+            "account": 0.0015
+          },
+          "ms": 33.04510000452865
+        },
+        {
+          "case": "negation",
+          "gold": "technical",
+          "choice": "billing",
+          "correct": false,
+          "confidence": 0.7884,
+          "probabilities": {
+            "billing": 0.9362,
+            "technical": 0.0095,
+            "sales": 0.0124,
+            "account": 0.0418
+          },
+          "ms": 31.349600001703948
+        },
+        {
+          "case": "ambiguous",
+          "gold": "billing",
+          "choice": "technical",
+          "correct": false,
+          "confidence": 0.1907,
+          "probabilities": {
+            "billing": 0.0612,
+            "technical": 0.4385,
+            "sales": 0.0948,
+            "account": 0.4055
+          },
+          "ms": 30.09490000840742
+        },
+        {
+          "case": "sarcasm",
+          "gold": "billing",
+          "choice": "account",
+          "correct": false,
+          "confidence": 0.1732,
+          "probabilities": {
+            "billing": 0.0593,
+            "technical": 0.116,
+            "sales": 0.385,
+            "account": 0.4397
+          },
+          "ms": 34.587300004204735
+        },
+        {
+          "case": "mixed",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 0.9256,
+          "probabilities": {
+            "billing": 0.9833,
+            "technical": 0.0043,
+            "sales": 0.0058,
+            "account": 0.0066
+          },
+          "ms": 29.154800009564497
+        }
+      ],
+      "language_invariance": [
+        {
+          "language": "en",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 27.284900002996437
+        },
+        {
+          "language": "tr",
+          "choice": "billing",
+          "confidence": 0.9978,
+          "probabilities": {
+            "billing": 0.9997,
+            "technical": 0.0001,
+            "sales": 0.0001,
+            "account": 0.0001
+          },
+          "ms": 27.130700007546693
+        },
+        {
+          "language": "de",
+          "choice": "billing",
+          "confidence": 0.9995,
+          "probabilities": {
+            "billing": 0.9999,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 30.04109999164939
+        },
+        {
+          "language": "fr",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 33.97960000438616
+        },
+        {
+          "language": "es",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 35.25280000758357
+        },
+        {
+          "language": "ar",
+          "choice": "billing",
+          "confidence": 0.9945,
+          "probabilities": {
+            "billing": 0.9991,
+            "technical": 0.0001,
+            "sales": 0.0002,
+            "account": 0.0006
+          },
+          "ms": 35.28889999142848
+        }
+      ],
+      "semantic_affinity_graph": {
+        "billing": {
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.00015,
+          "technical": 0.0016,
+          "bug": 0.00015,
+          "outage": 0.0001,
+          "account": 0.00845
+        },
+        "invoice": {
+          "billing": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.00035,
+          "technical": 0.0031,
+          "bug": 0.00055,
+          "outage": 0.00045,
+          "account": 0.02085
+        },
+        "payment_issue": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0001,
+          "technical": 0.0043,
+          "bug": 0.0112,
+          "outage": 5e-05,
+          "account": 0.05895
+        },
+        "duplicate_charge": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0001,
+          "technical": 0.0025,
+          "bug": 0.0002,
+          "outage": 0.0001,
+          "account": 0.01575
+        },
+        "refund": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "subscription": 0.00015,
+          "technical": 0.0019,
+          "bug": 0.0003,
+          "outage": 0.0001,
+          "account": 0.0193
+        },
+        "subscription": {
+          "billing": 0.00015,
+          "invoice": 0.00035,
+          "payment_issue": 0.0001,
+          "duplicate_charge": 0.0001,
+          "refund": 0.00015,
+          "technical": 0.0024,
+          "bug": 0.00025,
+          "outage": 0.00025,
+          "account": 0.0153
+        },
+        "technical": {
+          "billing": 0.0016,
+          "invoice": 0.0031,
+          "payment_issue": 0.0043,
+          "duplicate_charge": 0.0025,
+          "refund": 0.0019,
+          "subscription": 0.0024,
+          "bug": 0.04655,
+          "outage": 0.0021,
+          "account": 0.0484
+        },
+        "bug": {
+          "billing": 0.00015,
+          "invoice": 0.00055,
+          "payment_issue": 0.0112,
+          "duplicate_charge": 0.0002,
+          "refund": 0.0003,
+          "subscription": 0.00025,
+          "technical": 0.04655,
+          "outage": 0.00025,
+          "account": 0.0654
+        },
+        "outage": {
+          "billing": 0.0001,
+          "invoice": 0.00045,
+          "payment_issue": 5e-05,
+          "duplicate_charge": 0.0001,
+          "refund": 0.0001,
+          "subscription": 0.00025,
+          "technical": 0.0021,
+          "bug": 0.00025,
+          "account": 0.0041
+        },
+        "account": {
+          "billing": 0.00845,
+          "invoice": 0.02085,
+          "payment_issue": 0.05895,
+          "duplicate_charge": 0.01575,
+          "refund": 0.0193,
+          "subscription": 0.0153,
+          "technical": 0.0484,
+          "bug": 0.0654,
+          "outage": 0.0041
+        }
+      }
+    },
+    "jev-1.13.0": {
+      "manifold": [
+        {
+          "source": "billing",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "duplicate_charge": 0.0,
+            "invoice": 0.0,
+            "subscription": 0.0,
+            "outage": 0.0,
+            "account": 0.0,
+            "payment_issue": 0.0,
+            "bug": 0.0,
+            "technical": 0.0,
+            "refund": 0.0,
+            "billing": 1.0
+          },
+          "ms": 942.2056000039447
+        },
+        {
+          "source": "invoice",
+          "choice": "invoice",
+          "confidence": 1.0,
+          "probabilities": {
+            "outage": 0.0,
+            "billing": 0.0,
+            "invoice": 1.0,
+            "subscription": 0.0,
+            "duplicate_charge": 0.0,
+            "refund": 0.0,
+            "payment_issue": 0.0,
+            "bug": 0.0,
+            "technical": 0.0,
+            "account": 0.0
+          },
+          "ms": 301.07799998950213
+        },
+        {
+          "source": "payment_issue",
+          "choice": "payment_issue",
+          "confidence": 1.0,
+          "probabilities": {
+            "account": 0.0,
+            "payment_issue": 1.0,
+            "duplicate_charge": 0.0,
+            "refund": 0.0,
+            "invoice": 0.0,
+            "technical": 0.0,
+            "subscription": 0.0,
+            "bug": 0.0,
+            "outage": 0.0,
+            "billing": 0.0
+          },
+          "ms": 284.43159999733325
+        },
+        {
+          "source": "duplicate_charge",
+          "choice": "duplicate_charge",
+          "confidence": 1.0,
+          "probabilities": {
+            "payment_issue": 0.0,
+            "refund": 0.0,
+            "subscription": 0.0,
+            "duplicate_charge": 1.0,
+            "outage": 0.0,
+            "technical": 0.0,
+            "invoice": 0.0,
+            "account": 0.0,
+            "bug": 0.0,
+            "billing": 0.0
+          },
+          "ms": 285.5509999935748
+        },
+        {
+          "source": "refund",
+          "choice": "refund",
+          "confidence": 1.0,
+          "probabilities": {
+            "refund": 1.0,
+            "outage": 0.0,
+            "duplicate_charge": 0.0,
+            "billing": 0.0,
+            "payment_issue": 0.0,
+            "technical": 0.0,
+            "account": 0.0,
+            "subscription": 0.0,
+            "bug": 0.0,
+            "invoice": 0.0
+          },
+          "ms": 262.17869999527466
+        },
+        {
+          "source": "subscription",
+          "choice": "subscription",
+          "confidence": 1.0,
+          "probabilities": {
+            "subscription": 1.0,
+            "billing": 0.0,
+            "invoice": 0.0,
+            "duplicate_charge": 0.0,
+            "account": 0.0,
+            "refund": 0.0,
+            "outage": 0.0,
+            "technical": 0.0,
+            "payment_issue": 0.0,
+            "bug": 0.0
+          },
+          "ms": 331.54020000074524
+        },
+        {
+          "source": "technical",
+          "choice": "technical",
+          "confidence": 1.0,
+          "probabilities": {
+            "bug": 0.0,
+            "account": 0.0,
+            "refund": 0.0,
+            "billing": 0.0,
+            "subscription": 0.0,
+            "duplicate_charge": 0.0,
+            "outage": 0.0,
+            "payment_issue": 0.0,
+            "technical": 1.0,
+            "invoice": 0.0
+          },
+          "ms": 314.68159999349155
+        },
+        {
+          "source": "bug",
+          "choice": "bug",
+          "confidence": 1.0,
+          "probabilities": {
+            "payment_issue": 0.0,
+            "outage": 0.0,
+            "refund": 0.0,
+            "invoice": 0.0,
+            "billing": 0.0,
+            "account": 0.0,
+            "subscription": 0.0,
+            "technical": 0.0,
+            "duplicate_charge": 0.0,
+            "bug": 1.0
+          },
+          "ms": 294.9405000108527
+        },
+        {
+          "source": "outage",
+          "choice": "outage",
+          "confidence": 1.0,
+          "probabilities": {
+            "duplicate_charge": 0.0,
+            "invoice": 0.0,
+            "bug": 0.0,
+            "account": 0.0,
+            "outage": 1.0,
+            "refund": 0.0,
+            "billing": 0.0,
+            "technical": 0.0,
+            "payment_issue": 0.0,
+            "subscription": 0.0
+          },
+          "ms": 268.40469999297056
+        },
+        {
+          "source": "account",
+          "choice": "account",
+          "confidence": 1.0,
+          "probabilities": {
+            "subscription": 0.0,
+            "billing": 0.0,
+            "invoice": 0.0,
+            "technical": 0.0,
+            "outage": 0.0,
+            "account": 1.0,
+            "refund": 0.0,
+            "payment_issue": 0.0,
+            "bug": 0.0,
+            "duplicate_charge": 0.0
+          },
+          "ms": 323.4855000046082
+        }
+      ],
+      "information_bottleneck": [
+        {
+          "step": 1,
+          "state": "The customer asks for help.",
+          "answer": {
+            "type": "choice",
+            "choice": "technical",
+            "confidence": 0.76,
+            "probabilities": {
+              "billing": 0.0,
+              "sales": 0.04,
+              "technical": 0.83,
+              "account": 0.13
+            }
+          },
+          "ms": 280.110900013824
+        },
+        {
+          "step": 2,
+          "state": "The customer asks for help with an invoice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "account": 0.0,
+              "sales": 0.0
+            }
+          },
+          "ms": 287.0031999918865
+        },
+        {
+          "step": 3,
+          "state": "The customer says they were charged twice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0,
+              "account": 0.0
+            }
+          },
+          "ms": 296.49849999987055
+        },
+        {
+          "step": 4,
+          "state": "The customer says the same card was charged twice.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 1.0,
+              "account": 0.0,
+              "technical": 0.0,
+              "sales": 0.0
+            }
+          },
+          "ms": 268.1814999959897
+        },
+        {
+          "step": 5,
+          "state": "The customer says the same card was charged twice and explicitly requests a refund.",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 1.0,
+              "account": 0.0,
+              "technical": 0.0,
+              "sales": 0.0
+            }
+          },
+          "ms": 279.1012999950908
+        }
+      ],
+      "counterfactual_geometry": [
+        {
+          "phrase": "refund requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "ms": 275.27449998888187
+        },
+        {
+          "phrase": "refund not requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "ms": 307.86169999919366
+        },
+        {
+          "phrase": "refund maybe requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.45
+          },
+          "ms": 318.87980000465177
+        },
+        {
+          "phrase": "refund probably requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.64
+          },
+          "ms": 265.3716000058921
+        },
+        {
+          "phrase": "refund definitely requested",
+          "answer": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "ms": 281.01520000200253
+        }
+      ],
+      "confidence_attack": [
+        {
+          "case": "clear_billing",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "technical": 0.0,
+            "billing": 1.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 326.43349999852944
+        },
+        {
+          "case": "clear_technical",
+          "gold": "technical",
+          "choice": "technical",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 0.0,
+            "account": 0.0,
+            "sales": 0.0,
+            "technical": 1.0
+          },
+          "ms": 274.13659999729134
+        },
+        {
+          "case": "contradiction_billing",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 0.93,
+          "probabilities": {
+            "technical": 0.05,
+            "account": 0.0,
+            "billing": 0.95,
+            "sales": 0.0
+          },
+          "ms": 284.4455000013113
+        },
+        {
+          "case": "contradiction_technical",
+          "gold": "technical",
+          "choice": "technical",
+          "correct": true,
+          "confidence": 0.65,
+          "probabilities": {
+            "sales": 0.0,
+            "technical": 0.74,
+            "billing": 0.26,
+            "account": 0.0
+          },
+          "ms": 315.57140000222716
+        },
+        {
+          "case": "misleading_keyword",
+          "gold": "technical",
+          "choice": "technical",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "sales": 0.0,
+            "technical": 1.0,
+            "billing": 0.0,
+            "account": 0.0
+          },
+          "ms": 339.9636999965878
+        },
+        {
+          "case": "negation",
+          "gold": "technical",
+          "choice": "billing",
+          "correct": false,
+          "confidence": 0.99,
+          "probabilities": {
+            "account": 0.0,
+            "technical": 0.0,
+            "billing": 1.0,
+            "sales": 0.0
+          },
+          "ms": 328.958900005091
+        },
+        {
+          "case": "ambiguous",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "technical": 0.0,
+            "account": 0.0,
+            "billing": 1.0,
+            "sales": 0.0
+          },
+          "ms": 293.5759000101825
+        },
+        {
+          "case": "sarcasm",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "sales": 0.0,
+            "billing": 1.0,
+            "technical": 0.0,
+            "account": 0.0
+          },
+          "ms": 320.1215000008233
+        },
+        {
+          "case": "mixed",
+          "gold": "billing",
+          "choice": "billing",
+          "correct": true,
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "sales": 0.0,
+            "account": 0.0,
+            "technical": 0.0
+          },
+          "ms": 283.7424000026658
+        }
+      ],
+      "language_invariance": [
+        {
+          "language": "en",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "technical": 0.0,
+            "billing": 1.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 273.98969999921974
+        },
+        {
+          "language": "tr",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "technical": 0.0,
+            "sales": 0.0,
+            "account": 0.0
+          },
+          "ms": 302.6413000043249
+        },
+        {
+          "language": "de",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "sales": 0.0,
+            "billing": 1.0,
+            "technical": 0.0,
+            "account": 0.0
+          },
+          "ms": 273.84899999015033
+        },
+        {
+          "language": "fr",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "sales": 0.0,
+            "billing": 1.0,
+            "technical": 0.0,
+            "account": 0.0
+          },
+          "ms": 275.92089999234304
+        },
+        {
+          "language": "es",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "sales": 0.0,
+            "billing": 1.0,
+            "technical": 0.0,
+            "account": 0.0
+          },
+          "ms": 305.0569000042742
+        },
+        {
+          "language": "ar",
+          "choice": "billing",
+          "confidence": 1.0,
+          "probabilities": {
+            "billing": 1.0,
+            "account": 0.0,
+            "technical": 0.0,
+            "sales": 0.0
+          },
+          "ms": 368.9014999981737
+        }
+      ],
+      "semantic_affinity_graph": {
+        "billing": {
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "invoice": {
+          "billing": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "payment_issue": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "duplicate_charge": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "refund": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "subscription": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "technical": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "bug": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "bug": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "outage": 0.0,
+          "account": 0.0
+        },
+        "outage": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "account": 0.0
+        },
+        "account": {
+          "billing": 0.0,
+          "invoice": 0.0,
+          "payment_issue": 0.0,
+          "duplicate_charge": 0.0,
+          "refund": 0.0,
+          "subscription": 0.0,
+          "technical": 0.0,
+          "bug": 0.0,
+          "outage": 0.0
+        }
+      }
+    }
+  }
+}

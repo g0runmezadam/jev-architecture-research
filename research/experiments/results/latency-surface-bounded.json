@@ -1,0 +1,747 @@
+{
+  "created_at": "2026-09-21T23:44:34+0300",
+  "grid": {
+    "questions": [
+      1,
+      10,
+      50,
+      100
+    ],
+    "options": [
+      3,
+      50,
+      255
+    ],
+    "state_tokens": [
+      100,
+      500,
+      1000
+    ]
+  },
+  "results": {
+    "laya-multilingual": [
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 1,
+        "ms": 860.8575999969617,
+        "input_tokens": 135,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 10,
+        "ms": 66.78649999957997,
+        "input_tokens": 1360,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 50,
+        "ms": 167.78509999858215,
+        "input_tokens": 6800,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 100,
+        "ms": 304.0035000012722,
+        "input_tokens": 13700,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 1,
+        "ms": 39.637900001253,
+        "input_tokens": 321,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 10,
+        "ms": 106.28089999954682,
+        "input_tokens": 3220,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 50,
+        "ms": 400.2572999888798,
+        "input_tokens": 16100,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 100,
+        "ms": 788.6481999885291,
+        "input_tokens": 32300,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 10.891099998843856,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 8.51630000397563,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 12.894999992568046,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 11.515999998664483,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 1,
+        "ms": 40.609999996377155,
+        "input_tokens": 535,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 10,
+        "ms": 122.15460000152234,
+        "input_tokens": 5360,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 50,
+        "ms": 521.8944999942323,
+        "input_tokens": 26800,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 100,
+        "ms": 1209.8461000132374,
+        "input_tokens": 53700,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 1,
+        "ms": 34.536799998022616,
+        "input_tokens": 721,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 10,
+        "ms": 175.79220001061913,
+        "input_tokens": 7220,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 50,
+        "ms": 883.0478000018047,
+        "input_tokens": 36100,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 100,
+        "ms": 4524.685800002771,
+        "input_tokens": 72300,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 12.534900000900961,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 13.44549999339506,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 16.882199997780845,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 15.125899997656234,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 1,
+        "ms": 35.53329998976551,
+        "input_tokens": 1024,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 10,
+        "ms": 230.79210000287276,
+        "input_tokens": 10240,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 50,
+        "ms": 1214.787000004435,
+        "input_tokens": 51200,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 100,
+        "ms": 34415.930600007414,
+        "input_tokens": 102400,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 1,
+        "ms": 41.43800000019837,
+        "input_tokens": 1024,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 10,
+        "ms": 264.65519999328535,
+        "input_tokens": 10240,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 50,
+        "ms": 1413.1259999994654,
+        "input_tokens": 51200,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 100,
+        "ms": 34745.68020000879,
+        "input_tokens": 102400,
+        "output_tokens": 0,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 15.77980000001844,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 17.237300009583123,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 16.068900004029274,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 17.29200000409037,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "ValueError: question 'q0' options exceed head_max_len=256"
+      }
+    ],
+    "jev-1.13.0": [
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 1,
+        "ms": 973.6944000032963,
+        "input_tokens": 428,
+        "output_tokens": 43,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 10,
+        "ms": 269.4033000007039,
+        "input_tokens": 978,
+        "output_tokens": 403,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 50,
+        "ms": 304.2503000033321,
+        "input_tokens": 3418,
+        "output_tokens": 2043,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 100,
+        "answers": 100,
+        "ms": 339.61480000289157,
+        "input_tokens": 6469,
+        "output_tokens": 4093,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 1,
+        "ms": 307.6353000069503,
+        "input_tokens": 1080,
+        "output_tokens": 459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 10,
+        "ms": 310.9939999994822,
+        "input_tokens": 7489,
+        "output_tokens": 4563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 50,
+        "ms": 648.3015999983763,
+        "input_tokens": 35969,
+        "output_tokens": 22843,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 312.8277999931015,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 1,
+        "ms": 279.7456999978749,
+        "input_tokens": 4106,
+        "output_tokens": 2459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 10,
+        "ms": 667.8872000047704,
+        "input_tokens": 37740,
+        "output_tokens": 24563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 552.4239000078524,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 100,
+        "answers": 0,
+        "ms": 665.318200000911,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 1,
+        "ms": 258.2375000056345,
+        "input_tokens": 828,
+        "output_tokens": 43,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 10,
+        "ms": 263.70609999867156,
+        "input_tokens": 1378,
+        "output_tokens": 403,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 50,
+        "ms": 291.14810000464786,
+        "input_tokens": 3818,
+        "output_tokens": 2043,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 500,
+        "answers": 100,
+        "ms": 342.32300000439864,
+        "input_tokens": 6869,
+        "output_tokens": 4093,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 1,
+        "ms": 260.6376000039745,
+        "input_tokens": 1480,
+        "output_tokens": 459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 10,
+        "ms": 311.6771999921184,
+        "input_tokens": 7889,
+        "output_tokens": 4563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 50,
+        "ms": 683.4970000054454,
+        "input_tokens": 36369,
+        "output_tokens": 22843,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 277.08859999256674,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 1,
+        "ms": 286.76819999236614,
+        "input_tokens": 4506,
+        "output_tokens": 2459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 10,
+        "ms": 701.5552999946522,
+        "input_tokens": 38140,
+        "output_tokens": 24563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 379.6313999919221,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 500,
+        "answers": 0,
+        "ms": 496.07839999953285,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 1,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 1,
+        "ms": 355.78259998874273,
+        "input_tokens": 1328,
+        "output_tokens": 43,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 10,
+        "ms": 296.22489999746904,
+        "input_tokens": 1878,
+        "output_tokens": 403,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 50,
+        "ms": 347.7259000064805,
+        "input_tokens": 4318,
+        "output_tokens": 2043,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 3,
+        "state_tokens_requested": 1000,
+        "answers": 100,
+        "ms": 306.74050000379793,
+        "input_tokens": 7369,
+        "output_tokens": 4093,
+        "error": null
+      },
+      {
+        "questions": 1,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 1,
+        "ms": 307.6145999948494,
+        "input_tokens": 1980,
+        "output_tokens": 459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 10,
+        "ms": 307.9155000013998,
+        "input_tokens": 8389,
+        "output_tokens": 4563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 50,
+        "ms": 682.0208999997703,
+        "input_tokens": 36869,
+        "output_tokens": 22843,
+        "error": null
+      },
+      {
+        "questions": 100,
+        "options": 50,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 288.72620000038296,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 1,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 1,
+        "ms": 342.21180000167806,
+        "input_tokens": 5006,
+        "output_tokens": 2459,
+        "error": null
+      },
+      {
+        "questions": 10,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 10,
+        "ms": 685.6829000025755,
+        "input_tokens": 38640,
+        "output_tokens": 24563,
+        "error": null
+      },
+      {
+        "questions": 50,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 367.55860000266694,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      },
+      {
+        "questions": 100,
+        "options": 255,
+        "state_tokens_requested": 1000,
+        "answers": 0,
+        "ms": 529.7288000001572,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "error": "JudgeRequestError: judge returned HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}"
+      }
+    ]
+  }
+}

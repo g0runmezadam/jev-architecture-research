@@ -1,0 +1,615 @@
+{
+  "created_at": "2026-09-21T23:18:00+0300",
+  "experiments": {
+    "laya-multilingual": {
+      "label_permutation": [
+        {
+          "order": [
+            "billing",
+            "technical",
+            "sales"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "billing": 0.9802,
+            "technical": 0.0098,
+            "sales": 0.01
+          },
+          "confidence": 0.8992,
+          "ms": 343.28119999554474,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "order": [
+            "sales",
+            "billing",
+            "technical"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "sales": 0.0204,
+            "billing": 0.9683,
+            "technical": 0.0113
+          },
+          "confidence": 0.8533,
+          "ms": 26.962399992044084,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "order": [
+            "technical",
+            "sales",
+            "billing"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "technical": 0.0115,
+            "sales": 0.0106,
+            "billing": 0.9779
+          },
+          "confidence": 0.8895,
+          "ms": 16.470999995362945,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "order": [
+            "banana",
+            "billing",
+            "spaceship"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "banana": 0.0667,
+            "billing": 0.9278,
+            "spaceship": 0.0056
+          },
+          "confidence": 0.746,
+          "ms": 14.80950000404846,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "order": [
+            "x9",
+            "q4",
+            "billing"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "x9": 0.0274,
+            "q4": 0.0368,
+            "billing": 0.9358
+          },
+          "confidence": 0.7431,
+          "ms": 14.377300001797266,
+          "cached": false,
+          "input_tokens": 95
+        }
+      ],
+      "cardinality": [
+        {
+          "n_options": 3,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 0.9995,
+          "entropy_bits": -0.0,
+          "ms": 17.612399999052286,
+          "cached": false,
+          "input_tokens": 70
+        },
+        {
+          "n_options": 5,
+          "choice": "billing",
+          "correct_probability": 0.9997,
+          "confidence": 0.9983,
+          "entropy_bits": 0.005747828536316479,
+          "ms": 15.30579999962356,
+          "cached": false,
+          "input_tokens": 100
+        },
+        {
+          "n_options": 10,
+          "choice": "billing",
+          "correct_probability": 0.9925,
+          "confidence": 0.9739,
+          "entropy_bits": 0.08812131622143571,
+          "ms": 13.988599996082485,
+          "cached": false,
+          "input_tokens": 176
+        },
+        {
+          "n_options": 20,
+          "choice": "billing",
+          "correct_probability": 0.9925,
+          "confidence": 0.9785,
+          "entropy_bits": 0.09151218837030409,
+          "ms": 16.50820000213571,
+          "cached": false,
+          "input_tokens": 269
+        },
+        {
+          "n_options": 50,
+          "choice": "billing",
+          "correct_probability": 0.9995,
+          "confidence": 0.9986,
+          "entropy_bits": 0.002049938391455573,
+          "ms": 17.685200000414625,
+          "cached": false,
+          "input_tokens": 232
+        },
+        {
+          "n_options": 75,
+          "choice": "billing",
+          "correct_probability": 0.9974,
+          "confidence": 0.9933,
+          "entropy_bits": 0.00991449400499431,
+          "ms": 17.804899995098822,
+          "cached": false,
+          "input_tokens": 330
+        },
+        {
+          "n_options": 100,
+          "choice": "billing",
+          "correct_probability": 0.9927,
+          "confidence": 0.9837,
+          "entropy_bits": 0.12362759140232082,
+          "ms": 22.71679999830667,
+          "cached": false,
+          "input_tokens": 431
+        },
+        {
+          "n_options": 150,
+          "choice": "billing",
+          "correct_probability": 0.9443,
+          "confidence": 0.9018,
+          "entropy_bits": 0.7051505989433405,
+          "ms": 23.516500004916452,
+          "cached": false,
+          "input_tokens": 631
+        },
+        {
+          "n_options": 200,
+          "choice": "billing",
+          "correct_probability": 0.6818,
+          "confidence": 0.5651,
+          "entropy_bits": 3.3217356468287864,
+          "ms": 29.714100004639477,
+          "cached": false,
+          "input_tokens": 831
+        },
+        {
+          "n_options": 255,
+          "error": "ValueError: question 'route' options exceed head_max_len=256"
+        }
+      ],
+      "noul_inversion": [
+        {
+          "state": "The customer explicitly asks for a refund after being charged twice.",
+          "p_positive": 0.9607,
+          "p_negative": 0.6364,
+          "sum": 1.5971,
+          "deviation_from_one": 0.5971,
+          "ms": 29.98890000162646,
+          "cached": false,
+          "input_tokens": 102
+        },
+        {
+          "state": "The customer says the charge is correct and does not want a refund.",
+          "p_positive": 0.8254,
+          "p_negative": 0.9601,
+          "sum": 1.7854999999999999,
+          "deviation_from_one": 0.7854999999999999,
+          "ms": 17.181400005938485,
+          "cached": false,
+          "input_tokens": 106
+        },
+        {
+          "state": "The customer asks how to update their profile name and says nothing about money.",
+          "p_positive": 0.2516,
+          "p_negative": 0.5753,
+          "sum": 0.8269,
+          "deviation_from_one": 0.17310000000000003,
+          "ms": 16.520999997737817,
+          "cached": false,
+          "input_tokens": 108
+        },
+        {
+          "state": "Müşteri iki kez ücretlendirildiğini ve para iadesi istediğini söylüyor.",
+          "p_positive": 0.9874,
+          "p_negative": 0.9495,
+          "sum": 1.9369,
+          "deviation_from_one": 0.9369000000000001,
+          "ms": 14.794799993978813,
+          "cached": false,
+          "input_tokens": 116
+        }
+      ],
+      "decoy_injection": [
+        {
+          "n_options": 3,
+          "choice": "billing",
+          "correct_probability": 0.9688,
+          "confidence": 0.8539,
+          "entropy_bits": 0.2315662311433649,
+          "ms": 15.515399994910695,
+          "cached": false,
+          "input_tokens": 68
+        },
+        {
+          "n_options": 5,
+          "choice": "billing",
+          "correct_probability": 0.9695,
+          "confidence": 0.8894,
+          "entropy_bits": 0.2564826100373813,
+          "ms": 19.081599995843135,
+          "cached": false,
+          "input_tokens": 100
+        },
+        {
+          "n_options": 10,
+          "choice": "billing",
+          "correct_probability": 0.9561,
+          "confidence": 0.8824,
+          "entropy_bits": 0.3902395564031637,
+          "ms": 15.23530000122264,
+          "cached": false,
+          "input_tokens": 181
+        },
+        {
+          "n_options": 20,
+          "choice": "billing",
+          "correct_probability": 0.9862,
+          "confidence": 0.9647,
+          "entropy_bits": 0.1524600615034817,
+          "ms": 15.449099999386817,
+          "cached": false,
+          "input_tokens": 265
+        },
+        {
+          "n_options": 50,
+          "choice": "billing",
+          "correct_probability": 0.3302,
+          "confidence": 0.2022,
+          "entropy_bits": 4.501114794713713,
+          "ms": 15.48729999922216,
+          "cached": false,
+          "input_tokens": 229
+        },
+        {
+          "n_options": 100,
+          "choice": "billing",
+          "correct_probability": 0.1564,
+          "confidence": 0.1053,
+          "entropy_bits": 5.941971430242856,
+          "ms": 19.029300005058758,
+          "cached": false,
+          "input_tokens": 430
+        },
+        {
+          "n_options": 200,
+          "choice": "billing",
+          "correct_probability": 0.605,
+          "confidence": 0.4856,
+          "entropy_bits": 3.936955366862876,
+          "ms": 29.230900006950833,
+          "cached": false,
+          "input_tokens": 830
+        }
+      ]
+    },
+    "jev-1.13.0": {
+      "label_permutation": [
+        {
+          "order": [
+            "billing",
+            "technical",
+            "sales"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "sales": 0.0,
+            "billing": 1.0,
+            "technical": 0.0
+          },
+          "confidence": 1.0,
+          "ms": 1077.5742000114406,
+          "cached": false,
+          "input_tokens": 407
+        },
+        {
+          "order": [
+            "sales",
+            "billing",
+            "technical"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "sales": 0.0,
+            "technical": 0.0,
+            "billing": 1.0
+          },
+          "confidence": 1.0,
+          "ms": 290.9212000085972,
+          "cached": false,
+          "input_tokens": 407
+        },
+        {
+          "order": [
+            "technical",
+            "sales",
+            "billing"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "technical": 0.0,
+            "sales": 0.0,
+            "billing": 1.0
+          },
+          "confidence": 1.0,
+          "ms": 345.26760000153445,
+          "cached": false,
+          "input_tokens": 407
+        },
+        {
+          "order": [
+            "banana",
+            "billing",
+            "spaceship"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "billing": 1.0,
+            "spaceship": 0.0,
+            "banana": 0.0
+          },
+          "confidence": 1.0,
+          "ms": 274.42870000959374,
+          "cached": false,
+          "input_tokens": 409
+        },
+        {
+          "order": [
+            "x9",
+            "q4",
+            "billing"
+          ],
+          "choice": "billing",
+          "probabilities": {
+            "x9": 0.0,
+            "billing": 1.0,
+            "q4": 0.0
+          },
+          "confidence": 1.0,
+          "ms": 289.8916999984067,
+          "cached": false,
+          "input_tokens": 409
+        }
+      ],
+      "cardinality": [
+        {
+          "n_options": 3,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 285.59490000770893,
+          "cached": false,
+          "input_tokens": 369
+        },
+        {
+          "n_options": 5,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 395.133199999691,
+          "cached": false,
+          "input_tokens": 421
+        },
+        {
+          "n_options": 10,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 287.75580000365153,
+          "cached": false,
+          "input_tokens": 552
+        },
+        {
+          "n_options": 20,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 269.39970000239555,
+          "cached": false,
+          "input_tokens": 812
+        },
+        {
+          "n_options": 50,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 345.11100000236183,
+          "cached": false,
+          "input_tokens": 1592
+        },
+        {
+          "n_options": 75,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 301.7924000014318,
+          "cached": false,
+          "input_tokens": 2242
+        },
+        {
+          "n_options": 100,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 360.2314000017941,
+          "cached": false,
+          "input_tokens": 2893
+        },
+        {
+          "n_options": 150,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 344.30219999921974,
+          "cached": false,
+          "input_tokens": 4193
+        },
+        {
+          "n_options": 200,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 328.8246000010986,
+          "cached": false,
+          "input_tokens": 5493
+        },
+        {
+          "n_options": 255,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 352.927500003716,
+          "cached": false,
+          "input_tokens": 6923
+        }
+      ],
+      "noul_inversion": [
+        {
+          "state": "The customer explicitly asks for a refund after being charged twice.",
+          "p_positive": 0.98,
+          "p_negative": 0.02,
+          "sum": 1.0,
+          "deviation_from_one": 0.0,
+          "ms": 310.15109999862034,
+          "cached": false,
+          "input_tokens": 308
+        },
+        {
+          "state": "The customer says the charge is correct and does not want a refund.",
+          "p_positive": 0.02,
+          "p_negative": 0.97,
+          "sum": 0.99,
+          "deviation_from_one": 0.010000000000000009,
+          "ms": 270.5178999894997,
+          "cached": false,
+          "input_tokens": 310
+        },
+        {
+          "state": "The customer asks how to update their profile name and says nothing about money.",
+          "p_positive": 0.01,
+          "p_negative": 0.74,
+          "sum": 0.75,
+          "deviation_from_one": 0.25,
+          "ms": 299.4732999941334,
+          "cached": false,
+          "input_tokens": 311
+        },
+        {
+          "state": "Müşteri iki kez ücretlendirildiğini ve para iadesi istediğini söylüyor.",
+          "p_positive": 0.97,
+          "p_negative": 0.02,
+          "sum": 0.99,
+          "deviation_from_one": 0.010000000000000009,
+          "ms": 299.4951000000583,
+          "cached": false,
+          "input_tokens": 323
+        }
+      ],
+      "decoy_injection": [
+        {
+          "n_options": 3,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 261.8319000030169,
+          "cached": false,
+          "input_tokens": 365
+        },
+        {
+          "n_options": 5,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 322.8813000023365,
+          "cached": false,
+          "input_tokens": 417
+        },
+        {
+          "n_options": 10,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 338.8961000018753,
+          "cached": false,
+          "input_tokens": 548
+        },
+        {
+          "n_options": 20,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 305.44179999560583,
+          "cached": false,
+          "input_tokens": 808
+        },
+        {
+          "n_options": 50,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 397.71679999830667,
+          "cached": false,
+          "input_tokens": 1588
+        },
+        {
+          "n_options": 100,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 275.5936000030488,
+          "cached": false,
+          "input_tokens": 2889
+        },
+        {
+          "n_options": 200,
+          "choice": "billing",
+          "correct_probability": 1.0,
+          "confidence": 1.0,
+          "entropy_bits": -0.0,
+          "ms": 318.03920000675134,
+          "cached": false,
+          "input_tokens": 5489
+        }
+      ]
+    }
+  },
+  "selected": [
+    "cardinality",
+    "decoys",
+    "inversion",
+    "permutation"
+  ]
+}

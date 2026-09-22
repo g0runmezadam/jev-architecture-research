@@ -1,0 +1,1560 @@
+{
+  "created_at": "2026-09-21T23:28:58+0300",
+  "summary": {},
+  "detail": {
+    "laya-multilingual": {
+      "sweep": [
+        {
+          "levels": 2,
+          "score": 0.9086,
+          "expected_from_probabilities": 0.9086,
+          "difference": 0.0,
+          "confidence": 0.5589,
+          "probabilities": {
+            "0": 0.0914,
+            "1": 0.9086
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: complete outage and data loss",
+              "examples": [
+                "example for level 1"
+              ]
+            }
+          },
+          "ms": 295.4579999932321,
+          "cached": false,
+          "input_tokens": 93
+        },
+        {
+          "levels": 3,
+          "score": 1.6888,
+          "expected_from_probabilities": 1.6888999999999998,
+          "difference": -9.999999999976694e-05,
+          "confidence": 0.4084,
+          "probabilities": {
+            "0": 0.1059,
+            "1": 0.0995,
+            "2": 0.7947
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: complete outage and data loss",
+              "examples": [
+                "example for level 2"
+              ]
+            }
+          },
+          "ms": 16.56659999571275,
+          "cached": false,
+          "input_tokens": 123
+        },
+        {
+          "levels": 4,
+          "score": 2.3588,
+          "expected_from_probabilities": 2.3588,
+          "difference": 0.0,
+          "confidence": 0.3242,
+          "probabilities": {
+            "0": 0.1216,
+            "1": 0.0977,
+            "2": 0.081,
+            "3": 0.6997
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: complete outage and data loss",
+              "examples": [
+                "example for level 3"
+              ]
+            }
+          },
+          "ms": 21.450200001709163,
+          "cached": false,
+          "input_tokens": 153
+        },
+        {
+          "levels": 5,
+          "score": 2.8363,
+          "expected_from_probabilities": 2.8364000000000003,
+          "difference": -0.00010000000000021103,
+          "confidence": 0.1964,
+          "probabilities": {
+            "0": 0.1328,
+            "1": 0.1136,
+            "2": 0.0972,
+            "3": 0.0972,
+            "4": 0.5592
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: complete outage and data loss",
+              "examples": [
+                "example for level 4"
+              ]
+            }
+          },
+          "ms": 19.563399997423403,
+          "cached": false,
+          "input_tokens": 183
+        },
+        {
+          "levels": 6,
+          "score": 2.6524,
+          "expected_from_probabilities": 2.6527000000000003,
+          "difference": -0.000300000000000189,
+          "confidence": 0.0151,
+          "probabilities": {
+            "0": 0.1832,
+            "1": 0.1472,
+            "2": 0.1427,
+            "3": 0.1383,
+            "4": 0.1383,
+            "5": 0.2504
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: complete outage and data loss",
+              "examples": [
+                "example for level 5"
+              ]
+            }
+          },
+          "ms": 15.277099999366328,
+          "cached": false,
+          "input_tokens": 213
+        },
+        {
+          "levels": 7,
+          "score": 3.913,
+          "expected_from_probabilities": 3.9128,
+          "difference": 0.00019999999999997797,
+          "confidence": 0.1311,
+          "probabilities": {
+            "0": 0.1229,
+            "1": 0.0957,
+            "2": 0.0871,
+            "3": 0.0899,
+            "4": 0.0844,
+            "5": 0.0844,
+            "6": 0.4356
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: complete outage and data loss",
+              "examples": [
+                "example for level 6"
+              ]
+            }
+          },
+          "ms": 19.79560000472702,
+          "cached": false,
+          "input_tokens": 243
+        },
+        {
+          "levels": 8,
+          "score": 4.2573,
+          "expected_from_probabilities": 4.2581999999999995,
+          "difference": -0.0008999999999996788,
+          "confidence": 0.0748,
+          "probabilities": {
+            "0": 0.1171,
+            "1": 0.0941,
+            "2": 0.0912,
+            "3": 0.0912,
+            "4": 0.0912,
+            "5": 0.0884,
+            "6": 0.0884,
+            "7": 0.3387
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: complete outage and data loss",
+              "examples": [
+                "example for level 7"
+              ]
+            }
+          },
+          "ms": 19.7312999953283,
+          "cached": false,
+          "input_tokens": 273
+        },
+        {
+          "levels": 9,
+          "score": 4.1695,
+          "expected_from_probabilities": 4.1697,
+          "difference": -0.00019999999999953388,
+          "confidence": 0.0685,
+          "probabilities": {
+            "0": 0.152,
+            "1": 0.1544,
+            "2": 0.088,
+            "3": 0.0664,
+            "4": 0.0729,
+            "5": 0.0624,
+            "6": 0.0624,
+            "7": 0.0707,
+            "8": 0.2709
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: complete outage and data loss",
+              "examples": [
+                "example for level 8"
+              ]
+            }
+          },
+          "ms": 17.292700009420514,
+          "cached": false,
+          "input_tokens": 269
+        },
+        {
+          "levels": 10,
+          "score": 2.4292,
+          "expected_from_probabilities": 2.4306,
+          "difference": -0.00140000000000029,
+          "confidence": 0.3414,
+          "probabilities": {
+            "0": 0.083,
+            "1": 0.604,
+            "2": 0.0352,
+            "3": 0.0363,
+            "4": 0.0352,
+            "5": 0.0352,
+            "6": 0.0352,
+            "7": 0.0352,
+            "8": 0.0352,
+            "9": 0.0657
+          },
+          "legend": {
+            "0": {
+              "what": "Severity level 0: minor cosmetic issue",
+              "examples": [
+                "example for level 0"
+              ]
+            },
+            "1": {
+              "what": "Severity level 1: intermediate operational impact 1",
+              "examples": [
+                "example for level 1"
+              ]
+            },
+            "2": {
+              "what": "Severity level 2: intermediate operational impact 2",
+              "examples": [
+                "example for level 2"
+              ]
+            },
+            "3": {
+              "what": "Severity level 3: intermediate operational impact 3",
+              "examples": [
+                "example for level 3"
+              ]
+            },
+            "4": {
+              "what": "Severity level 4: intermediate operational impact 4",
+              "examples": [
+                "example for level 4"
+              ]
+            },
+            "5": {
+              "what": "Severity level 5: intermediate operational impact 5",
+              "examples": [
+                "example for level 5"
+              ]
+            },
+            "6": {
+              "what": "Severity level 6: intermediate operational impact 6",
+              "examples": [
+                "example for level 6"
+              ]
+            },
+            "7": {
+              "what": "Severity level 7: intermediate operational impact 7",
+              "examples": [
+                "example for level 7"
+              ]
+            },
+            "8": {
+              "what": "Severity level 8: intermediate operational impact 8",
+              "examples": [
+                "example for level 8"
+              ]
+            },
+            "9": {
+              "what": "Severity level 9: complete outage and data loss",
+              "examples": [
+                "example for level 9"
+              ]
+            }
+          },
+          "ms": 14.25970000855159,
+          "cached": false,
+          "input_tokens": 276
+        }
+      ],
+      "inversion": [
+        {
+          "order": "normal",
+          "answer": {
+            "type": "score",
+            "score": 1.1253,
+            "legend": {
+              "0": {
+                "what": "Minor: cosmetic issue, nothing is broken",
+                "examples": [
+                  "typo"
+                ]
+              },
+              "1": {
+                "what": "Moderate: feature is degraded but workaround exists",
+                "examples": [
+                  "one browser fails"
+                ]
+              },
+              "2": {
+                "what": "Critical: complete outage, no workaround, or data loss",
+                "examples": [
+                  "nobody can log in"
+                ]
+              }
+            },
+            "probabilities": {
+              "0": 0.1787,
+              "1": 0.5172,
+              "2": 0.3041
+            },
+            "confidence": 0.08,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 18.169899994973093,
+          "cached": false,
+          "input_tokens": 114
+        },
+        {
+          "order": "reversed",
+          "answer": {
+            "type": "score",
+            "score": 1.2571,
+            "legend": {
+              "0": {
+                "what": "Critical: complete outage, no workaround, or data loss",
+                "examples": [
+                  "nobody can log in"
+                ]
+              },
+              "1": {
+                "what": "Moderate: feature is degraded but workaround exists",
+                "examples": [
+                  "one browser fails"
+                ]
+              },
+              "2": {
+                "what": "Minor: cosmetic issue, nothing is broken",
+                "examples": [
+                  "typo"
+                ]
+              }
+            },
+            "probabilities": {
+              "0": 0.2235,
+              "1": 0.296,
+              "2": 0.4805
+            },
+            "confidence": 0.0466,
+            "action": {
+              "act_probability": 1.0
+            }
+          },
+          "ms": 15.574799996102229,
+          "cached": false,
+          "input_tokens": 114
+        }
+      ],
+      "determinism": {
+        "repeats": 30,
+        "choices": [
+          "billing"
+        ],
+        "max_probability_delta": 0.0,
+        "confidence_values": [
+          0.9693
+        ],
+        "rows": [
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 17.762999996193685,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 22.483599997940473,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 15.775799998664297,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 21.415800001705065,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 20.895699999528006,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 16.301299998303875,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 21.184099998208694,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 17.810700010159053,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 17.348499997751787,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 12.38030000240542,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 13.768400007393211,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 14.780299999983981,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 12.71150000684429,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 14.984399997047149,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 15.20639999944251,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 16.686000002664514,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 14.660100001492538,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 12.368700001388788,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 16.424500005086884,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 16.64679999521468,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 15.654100003303029,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 25.640200008638203,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 25.07000000332482,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 13.336200005142018,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 12.443500003428198,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 16.91620000929106,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 15.25749999564141,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 30.241600004956126,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 17.48569999472238,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 0.9951,
+              "technical": 0.0013,
+              "sales": 0.0036
+            },
+            "confidence": 0.9693,
+            "ms": 23.05960000376217,
+            "cached": false
+          }
+        ]
+      }
+    },
+    "jev-1.13.0": {
+      "sweep": [
+        {
+          "levels": 2,
+          "score": 0.99,
+          "expected_from_probabilities": 0.99,
+          "difference": 0.0,
+          "confidence": 0.98,
+          "probabilities": {
+            "0": 0.01,
+            "1": 0.99
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: complete outage and data loss', 'examples': ['example for level 1']}"
+          },
+          "ms": 1019.9984000064433,
+          "cached": false,
+          "input_tokens": 368
+        },
+        {
+          "levels": 3,
+          "score": 1.96,
+          "expected_from_probabilities": 1.96,
+          "difference": 0.0,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.04,
+            "2": 0.96
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: complete outage and data loss', 'examples': ['example for level 2']}"
+          },
+          "ms": 320.2968999976292,
+          "cached": false,
+          "input_tokens": 403
+        },
+        {
+          "levels": 4,
+          "score": 2.97,
+          "expected_from_probabilities": 2.98,
+          "difference": -0.009999999999999787,
+          "confidence": 0.97,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.02,
+            "3": 0.98
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: complete outage and data loss', 'examples': ['example for level 3']}"
+          },
+          "ms": 334.0978000051109,
+          "cached": false,
+          "input_tokens": 438
+        },
+        {
+          "levels": 5,
+          "score": 3.96,
+          "expected_from_probabilities": 3.96,
+          "difference": 0.0,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.01,
+            "3": 0.02,
+            "4": 0.97
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: complete outage and data loss', 'examples': ['example for level 4']}"
+          },
+          "ms": 350.96700000576675,
+          "cached": false,
+          "input_tokens": 473
+        },
+        {
+          "levels": 6,
+          "score": 4.94,
+          "expected_from_probabilities": 4.96,
+          "difference": -0.019999999999999574,
+          "confidence": 0.96,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.01,
+            "4": 0.02,
+            "5": 0.97
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: complete outage and data loss', 'examples': ['example for level 5']}"
+          },
+          "ms": 269.8259000026155,
+          "cached": false,
+          "input_tokens": 508
+        },
+        {
+          "levels": 7,
+          "score": 5.9,
+          "expected_from_probabilities": 5.919999999999999,
+          "difference": -0.019999999999998685,
+          "confidence": 0.94,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.01,
+            "4": 0.01,
+            "5": 0.03,
+            "6": 0.95
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: complete outage and data loss', 'examples': ['example for level 6']}"
+          },
+          "ms": 278.9178999955766,
+          "cached": false,
+          "input_tokens": 543
+        },
+        {
+          "levels": 8,
+          "score": 6.86,
+          "expected_from_probabilities": 6.85,
+          "difference": 0.010000000000000675,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.01,
+            "5": 0.01,
+            "6": 0.03,
+            "7": 0.9400000000000001
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: complete outage and data loss', 'examples': ['example for level 7']}"
+          },
+          "ms": 331.86860001296736,
+          "cached": false,
+          "input_tokens": 578
+        },
+        {
+          "levels": 9,
+          "score": 7.88,
+          "expected_from_probabilities": 7.9399999999999995,
+          "difference": -0.05999999999999961,
+          "confidence": 0.95,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.01,
+            "6": 0.01,
+            "7": 0.01,
+            "8": 0.97
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: intermediate operational impact 7', 'examples': ['example for level 7']}",
+            "8": "{'what': 'Severity level 8: complete outage and data loss', 'examples': ['example for level 8']}"
+          },
+          "ms": 290.76119999808725,
+          "cached": false,
+          "input_tokens": 613
+        },
+        {
+          "levels": 10,
+          "score": 8.83,
+          "expected_from_probabilities": 8.82,
+          "difference": 0.009999999999999787,
+          "confidence": 0.93,
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.01,
+            "7": 0.01,
+            "8": 0.04,
+            "9": 0.93
+          },
+          "legend": {
+            "0": "{'what': 'Severity level 0: minor cosmetic issue', 'examples': ['example for level 0']}",
+            "1": "{'what': 'Severity level 1: intermediate operational impact 1', 'examples': ['example for level 1']}",
+            "2": "{'what': 'Severity level 2: intermediate operational impact 2', 'examples': ['example for level 2']}",
+            "3": "{'what': 'Severity level 3: intermediate operational impact 3', 'examples': ['example for level 3']}",
+            "4": "{'what': 'Severity level 4: intermediate operational impact 4', 'examples': ['example for level 4']}",
+            "5": "{'what': 'Severity level 5: intermediate operational impact 5', 'examples': ['example for level 5']}",
+            "6": "{'what': 'Severity level 6: intermediate operational impact 6', 'examples': ['example for level 6']}",
+            "7": "{'what': 'Severity level 7: intermediate operational impact 7', 'examples': ['example for level 7']}",
+            "8": "{'what': 'Severity level 8: intermediate operational impact 8', 'examples': ['example for level 8']}",
+            "9": "{'what': 'Severity level 9: complete outage and data loss', 'examples': ['example for level 9']}"
+          },
+          "ms": 324.1379999963101,
+          "cached": false,
+          "input_tokens": 649
+        }
+      ],
+      "inversion": [
+        {
+          "order": "normal",
+          "answer": {
+            "type": "score",
+            "score": 2.0,
+            "confidence": 1.0,
+            "probabilities": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 1.0
+            },
+            "legend": {
+              "0": "{'what': 'Minor: cosmetic issue, nothing is broken', 'examples': ['typo']}",
+              "1": "{'what': 'Moderate: feature is degraded but workaround exists', 'examples': ['one browser fails']}",
+              "2": "{'what': 'Critical: complete outage, no workaround, or data loss', 'examples': ['nobody can log in']}"
+            }
+          },
+          "ms": 266.0117000050377,
+          "cached": false,
+          "input_tokens": 398
+        },
+        {
+          "order": "reversed",
+          "answer": {
+            "type": "score",
+            "score": 0.0,
+            "confidence": 1.0,
+            "probabilities": {
+              "0": 1.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "legend": {
+              "0": "{'what': 'Critical: complete outage, no workaround, or data loss', 'examples': ['nobody can log in']}",
+              "1": "{'what': 'Moderate: feature is degraded but workaround exists', 'examples': ['one browser fails']}",
+              "2": "{'what': 'Minor: cosmetic issue, nothing is broken', 'examples': ['typo']}"
+            }
+          },
+          "ms": 294.53990000183694,
+          "cached": false,
+          "input_tokens": 398
+        }
+      ],
+      "determinism": {
+        "repeats": 30,
+        "choices": [
+          "billing"
+        ],
+        "max_probability_delta": 0.0,
+        "confidence_values": [
+          1.0
+        ],
+        "rows": [
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 824.9863000091864,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 934.0194999967935,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "billing": 1.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 746.3406000024406,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 760.7412999932421,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 639.7613000008278,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "billing": 1.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 678.289000003133,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 726.2725999898976,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "technical": 0.0,
+              "sales": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 752.7146000065841,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 907.1705999958795,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 695.9876000037184,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 730.1092999987304,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 856.3251000014134,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 797.1741000073962,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 813.0445999995572,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "technical": 0.0,
+              "sales": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 802.4825999891618,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 818.3330000028946,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 909.027600006084,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "technical": 0.0,
+              "sales": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 728.5445000015898,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 710.8020999876317,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 746.9721999950707,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 916.4503999927547,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "technical": 0.0,
+              "sales": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 762.1827999973902,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 704.1757999977563,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 708.2679999875836,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 750.8827999990899,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "sales": 0.0,
+              "technical": 0.0,
+              "billing": 1.0
+            },
+            "confidence": 1.0,
+            "ms": 734.3457999959355,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 763.430499995593,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 968.8273999927333,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "sales": 0.0,
+              "technical": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 635.7196000026306,
+            "cached": false
+          },
+          {
+            "choice": "billing",
+            "probabilities": {
+              "billing": 1.0,
+              "technical": 0.0,
+              "sales": 0.0
+            },
+            "confidence": 1.0,
+            "ms": 669.4793000060599,
+            "cached": false
+          }
+        ]
+      }
+    }
+  }
+}
