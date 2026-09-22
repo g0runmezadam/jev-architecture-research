@@ -62,7 +62,7 @@ never committed. See the receipts before running a costly or rate-limited probe.
   title  = {Jev Architecture Research: A Black-Box Reverse-Engineering Archive},
   author = {Şahin, Tunahan},
   year   = {2026},
-  url    = {https://github.com/tunahansahin897/jev-architecture-research}
+  url    = {https://github.com/g0runmezadam/jev-architecture-research}
 }
 ```
 
