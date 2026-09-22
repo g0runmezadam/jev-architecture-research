@@ -60,7 +60,7 @@ never committed. See the receipts before running a costly or rate-limited probe.
 ```bibtex
 @misc{jev_architecture_research_2026,
   title  = {Jev Architecture Research: A Black-Box Reverse-Engineering Archive},
-  author = {Şahin, Tunahan},
+  author = {g0runmezadam},
   year   = {2026},
   url    = {https://github.com/g0runmezadam/jev-architecture-research}
 }

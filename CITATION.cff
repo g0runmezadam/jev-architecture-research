@@ -3,8 +3,7 @@ title: "Jev Architecture Research: A Black-Box Reverse-Engineering Archive"
 message: "If this archive supports your research, please cite it."
 type: software
 authors:
-  - family-names: Şahin
-    given-names: Tunahan
+  - name: g0runmezadam
     website: https://jev.com.tr/
 date-released: 2026-09-22
 repository-code: https://github.com/g0runmezadam/jev-architecture-research
