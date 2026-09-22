@@ -1,0 +1,37 @@
+name: Research proposal
+description: Propose a black-box experiment that reduces architectural uncertainty.
+title: "[Experiment] "
+labels: [research, experiment, needs-review]
+body:
+  - type: markdown
+    attributes:
+      value: "Please propose an experiment, not only a benchmark. State what architectural uncertainty it can reduce."
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: What competing explanations does this experiment distinguish?
+      placeholder: "H1 predicts..., H2 predicts..."
+    validations:
+      required: true
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Methodology
+      description: Inputs, controls, repetitions, measurements and stopping conditions.
+    validations:
+      required: true
+  - type: textarea
+    id: confounders
+    attributes:
+      label: Confounders and alternatives
+      description: What could produce the same observation without your hypothesis being true?
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: Reproducibility
+      description: Expected receipt, raw output and environment details.
+    validations:
+      required: true

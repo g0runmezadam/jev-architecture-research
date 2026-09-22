@@ -1,0 +1,26 @@
+name: Evidence correction
+description: Report a source, metric, interpretation or reproducibility issue.
+title: "[Evidence] "
+labels: [evidence, needs-review]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File, section, experiment or raw result.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: What is wrong and what evidence supports the correction?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact on attribution
+      description: Which hypothesis or confidence estimate changes?
+    validations:
+      required: true
